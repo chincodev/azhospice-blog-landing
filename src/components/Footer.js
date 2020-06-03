@@ -1,81 +1,52 @@
 import React from 'react'
-import styled from '@emotion/styled'
 
-const Wrapper = styled.footer`
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 0 auto;
-  max-width: ${props => props.theme.sizes.maxWidth};
-`
-
-const List = styled.ul`
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-  border-top: 1px solid ${props => props.theme.colors.secondary};
-  padding: 1em 0 2em;
-  margin: 0 1.5em;
-`
-
-const Item = styled.li`
-  display: inline-block;
-  padding: 0.25em 0;
-  width: 100%;
-  @media screen and (min-width: ${props => props.theme.responsive.small}) {
-    width: auto;
-  }
-  a {
-    font-weight: 600;
-    transition: all 0.2s;
-    color: ${props => props.theme.colors.text};
-    &:hover {
-      color: ${props => props.theme.colors.highlight};
-    }
-    &:visited {
-      color: ${props => props.theme.colors.text};
-    }
-  }
-`
 
 const Footer = () => (
-  <Wrapper>
-    <List>
-      <Item>
-        <a
-          href="https://www.contentful.com/"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg"
-            style={{ width: '100px' }}
-            alt="Powered by Contentful"
-          />
-        </a>
-      </Item>
-      <Item>
-        <a
-          href="https://github.com/ryanwiemer/gatsby-starter-gcn"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          gatsby-starter-gcn
-        </a>{' '}
-        by{' '}
-        <a
-          href="https://github.com/ryanwiemer"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @ryanwiemer
-        </a>
-      </Item>
-    </List>
-  </Wrapper>
+    <footer className="py-5">
+	    <div className="container py-xl-5 py-lg-3">
+			<div className="row">
+				<div className="col-lg-7 w3l-footer">
+					<ul id="footer-li" className="list-unstyled list-styles mt-lg-5 mt-4">
+						<li>
+							<p className="text-li"><span className="fa fa-location-arrow mr-2"></span>1445 E Los Angeles Ave Suite 301-D, Simi Valley, CA 93065
+                            </p>
+						</li>
+						<li className="my-3">
+							<p className="text-li"><span className="fa fa-phone mr-2"></span>(805) 380-2550</p>
+						</li>
+						<li className="my-3">
+							<a href="mailto:info@a-zhospice.com" className="text-wh"><span className="fa fa-envelope-open mr-2"></span>info@a-zhospice.com</a>
+						</li>
+						<li className="my-3">
+						    <p className="text-li"><span className="fa fa-fax mr-2"></span>Fax # 805-392-5200</p>
+						</li>
+						<li className="my-3">
+						    <p className="text-li"><span className="fa fa-clock-o mr-2"></span>Hours 10 AM to 5 PM </p>
+						</li>
+						<li className="my-3">
+						    <p className="text-li"><span className="fa fa-phone mr-2"></span> On call 24/7</p>
+						</li>
+					</ul>
+				</div>
+				<div className="col-lg-5 w3l-footer mt-lg-0 mt-5">
+			        <div className="logo2">
+						<h2>
+							<a href="index.html">
+							    <img src="../../images/ACHC_20Gold.png" alt="" className="img-fluid" />
+                            </a>
+						</h2>
+					</div>
+					<h3 className="mb-sm-4 mb-3 text-wh">Social Networks</h3>
+					<ul id="social-li" className="list-unstyled list-part text-wh pt-lg-3">
+						<a href="https://www.linkedin.com/company/53872160 "><li><span className="fa fa-linkedin" aria-hidden="true"></span></li></a>
+						<a href="https://www.facebook.com/AZHOSPICEINC/ "><li className="mx-4"><span className="fa fa-facebook" aria-hidden="true"></span></li></a>
+						<a href="https://www.instagram.com/a_zhospiceinc/ "><li><span className="fa fa-instagram" aria-hidden="true"></span></li></a>
+						<a href="https://twitter.com/hospice_z"><li className="mx-4"><span className="fa fa-twitter" aria-hidden="true"></span></li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 )
 
 export default Footer

@@ -13,6 +13,10 @@ export const useSiteMetadata = () => {
             menuLinks {
               name
               slug
+              childs {
+                name
+                slug
+              }
             }
           }
         }

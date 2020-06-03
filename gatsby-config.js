@@ -17,23 +17,59 @@ try {
 
 module.exports = {
   siteMetadata: {
-    title: 'GCN',
+    title: 'a-zhospice',
     description:
-      'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
-    siteUrl: 'https://gcn.netlify.com',
-    image: '/images/share.jpg',
+      'your health is our number one priority.',
+    siteUrl: 'https://a-zhospice.com',
+    image: '/images/AZlogoBG.jpg',
     menuLinks: [
       {
         name: 'Home',
         slug: '/',
       },
       {
-        name: 'About',
-        slug: '/about/',
+        name: 'Hospice',
+        slug: '/hospice/',
+        childs: [
+          {
+            name: 'What to expect',
+            slug: '/hospice/what-to-expect'
+          },
+          {
+            name: 'Insurance coverage',
+            slug: '/hospice/insurance-coverage'
+          }
+        ]
+      },
+      {
+        name: 'About us',
+        slug: '/about-us/',
+        childs: [
+          {
+            name: 'Area of cover',
+            slug: '/about-us/area-of-cover'
+          },
+          {
+            name: 'Services we provide',
+            slug: '/about-us/services-we-provide'
+          },
+          {
+            name: 'Our team',
+            slug: '/about-us/our-team'
+          }
+        ]
+      },
+      {
+        name: 'Referral',
+        slug: '/referral/',
       },
       {
         name: 'Contact',
         slug: '/contact/',
+      },
+      {
+        name: 'Blog',
+        slug: '/blog/',
       },
     ],
     postsPerFirstPage: 7,
@@ -72,6 +108,15 @@ module.exports = {
           : contentfulConfig.production,
     },
     {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `tomato`,
+        // Disable the loading spinner.
+        showSpinner: true,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS,
@@ -82,13 +127,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GCN',
-        short_name: 'GCN',
+        name: 'a-zhospice',
+        short_name: 'a-zhospice',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
         display: 'minimal-ui',
-        icon: './static/images/favicon.png',
+        icon: './static/images/favicon.jpg',
       },
     },
     'gatsby-plugin-offline',

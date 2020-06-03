@@ -29,7 +29,7 @@ const Posts = ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO title={startCase(basePath)} image={ogImage} />
-      <Container>
+      <div className="container py-xl-5 py-lg-3">
         {isFirstPage ? (
           <CardList>
             <Card {...featuredPost} featured basePath={basePath} />
@@ -44,7 +44,7 @@ const Posts = ({ data, pageContext }) => {
             ))}
           </CardList>
         )}
-      </Container>
+</div>
       <Pagination context={pageContext} />
     </Layout>
   )
