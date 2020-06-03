@@ -149,9 +149,9 @@ const IndexPage = () => {
 
                   <div className="card-body border border-top-0">
                     <div className="mb-3">
-                      <h5 className="blog-title card-title m-0">
+                      <h4 className="blog-title card-title m-0">
                         The Hospice Team
-                      </h5>
+                      </h4>
                     </div>
 
                     <p>
@@ -181,9 +181,9 @@ const IndexPage = () => {
 
                   <div className="card-body border border-top-0">
                     <div className="mb-3">
-                      <h5 className="blog-title card-title m-0">
+                      <h4 className="blog-title card-title m-0">
                         Spiritual Counselors
-                      </h5>
+                      </h4>
                     </div>
 
                     <p>
@@ -213,9 +213,9 @@ const IndexPage = () => {
 
                   <div className="card-body border border-top-0">
                     <div className="mb-3">
-                      <h5 className="blog-title card-title m-0">
-                        To read more
-                      </h5>
+                      <h4 className="blog-title card-title m-0">
+                        Home health
+                      </h4>
                     </div>
 
                     <p>

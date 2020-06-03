@@ -18,7 +18,7 @@ const WhatToExpect = () => {
 			                <div className="col-lg-6 agileits_works-grid">
 					            <p>Some families are leery of strangers taking care of their loved one in their homes. A conscientious caregiver may feel they’ve been doing a difficult job well, and now the hospice team has taken over that job over. Or they imagine the hospice team invading their privacy, like firefighters entering a burning house!</p>
 					            <br></br>
-                                <h5>With Hospice, You Are in Control</h5>
+                                <h4>With Hospice, You Are in Control</h4>
                                 <br></br>
 					            <p>For the most part, your hospice team—generally speaking, a physician, nurse, hospice aide, social worker, chaplain, volunteer and bereavement manager—arrive one at a time and on a schedule you have agreed to. They are there to help take care of your loved one, not to take over. They will look to you for guidance and at the same time have the answers you need. They will be gentle and confident with the patient. With every visit, things will get easier. You will find yourselves looking forward to each team member’s arrival.</p>
 			                </div>
@@ -29,7 +29,7 @@ const WhatToExpect = () => {
 				                <img src="../images/Dw1kv0FQE7.webp" alt="" className="img-fluid" />				
 			                </div>								
 			                <div className="col-lg-6 agileits_works-grid" id="list-ul">																
-			                    <h5>Hospice Home Care: What to Expect</h5>
+			                    <h4>Hospice Home Care: What to Expect</h4>
                                 <br></br>
 			                    <p>Once the appropriate papers are signed and admissions orders received, the patient is officially admitted to hospice care. The hospice team communicates with the patient’s physician and the hospice physician to discuss medical history, current physical symptoms and life expectancy.</p>
 			                    <ul>
