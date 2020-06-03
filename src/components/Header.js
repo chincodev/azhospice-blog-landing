@@ -28,22 +28,22 @@ export default function Header (){
                                 <div className="col-xl-8 col-lg-8 col-8 top-w3layouts p-md-0 text-right">
                                     <ul className="top-right-info">
                                         <li className="mx-3">
-                                            <a target="_blank" rel="noreferrer" rel="noreferrer" href="https://www.linkedin.com/company/53872160">
+                                            <a target="_blank" aria-label="linkedin" rel="noreferrer" rel="noreferrer" href="https://www.linkedin.com/company/53872160">
                                                 <span className="fa fa-linkedin"></span>
                                             </a>
                                         </li>
                                         <li className="">
-                                            <a target="_blank" rel="noreferrer" rel="noreferrer" href="https://www.facebook.com/AZHOSPICEINC/">
+                                            <a target="_blank" aria-label="facebook" rel="noreferrer" rel="noreferrer" href="https://www.facebook.com/AZHOSPICEINC/">
                                                 <span className="fa fa-facebook"></span>
                                             </a>
                                         </li>
                                         <li className="mx-3">
-                                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/a_zhospiceinc/">
+                                            <a target="_blank" aria-label="instagram" rel="noreferrer" href="https://www.instagram.com/a_zhospiceinc/">
                                                 <span className="fa fa-instagram"></span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a target="_blank" rel="noreferrer" href="https://twitter.com/hospice_z">
+                                            <a target="_blank" aria-label="twitter" rel="noreferrer" href="https://twitter.com/hospice_z">
                                                 <span className="fa fa-twitter"></span>
                                             </a>
                                         </li>
