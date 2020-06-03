@@ -22,10 +22,10 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="col-lg-6 agileits_works-grid1 mt-lg-0 mt-sm-5 mt-4 hospice">
-                                <img src="../../images/AZlogoBG_edited1.png" alt="" className="img-fluid" />
+                                <img src="../../images/AZlogoBG_edited1.webp" alt="" className="img-fluid" />
                             </div>												
                             <div className="col-lg-6 agileits_works-grid1 mt-lg-0 mt-sm-5 mt-4 hospice">					
-                                <img src={"../../images/ACHC_20Gold.png"} alt="" className="img-fluid" />				
+                                <img src={"../../images/ACHC_20Gold.webp"} alt="" className="img-fluid" />				
                             </div>						
                             <div className="col-lg-6 agileits_works-grid">					
                                 <div className="wthree-bottom" style={{float: "right"}}>						

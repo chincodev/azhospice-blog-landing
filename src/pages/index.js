@@ -142,7 +142,7 @@ const IndexPage = () => {
                   <div className="card-header p-0">
                     <img
                       className="card-img-bottom"
-                      src="images/GiQtK1X7gz.jpg"
+                      src="images/GiQtK1X7gz.webp"
                       alt="image"
                     />
                   </div>
@@ -174,7 +174,7 @@ const IndexPage = () => {
                   <div className="card-header p-0">
                     <img
                       className="card-img-bottom"
-                      src="images/2.jpg"
+                      src="images/2.webp"
                       alt="image"
                     />
                   </div>
@@ -206,7 +206,7 @@ const IndexPage = () => {
                   <div className="card-header p-0">
                     <img
                       className="card-img-bottom"
-                      src="images/ybRmRFe5ux.jpg"
+                      src="images/ybRmRFe5ux.webp"
                       alt="image"
                     />
                   </div>

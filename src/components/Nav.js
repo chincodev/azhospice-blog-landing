@@ -26,8 +26,8 @@ export default function Nav (){
             <div className="container">
         	    <div className="header d-md-flex justify-content-between align-items-center py-3">
                     <div id="logo">
-                        <a className="logoLink" href="/">
-                            <img src={'../../images/AZlogoBG_edited.png'} alt="" className="img-fluid" />
+                        <a className="logoLink" aria-label="Home section" href="/">
+                            <img src={'../../images/AZlogoBG_edited.webp'} alt="" className="img-fluid" />
                         </a>
 						<div onClick={handleMenuActive} className="menu-trigger-container"><span className="fa fa-bars menu-trigger"></span></div>
         			</div>

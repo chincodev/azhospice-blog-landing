@@ -12,7 +12,7 @@ const Copyright = () => (
 	    		</div>
 	    	</div>
 	    </div>
-        <a href="#home" className="move-top text-center"></a>
+        <button type="button" className="move-top text-center"></button>
     </>
 )
 export default Copyright

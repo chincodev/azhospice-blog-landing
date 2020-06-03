@@ -57,11 +57,13 @@ const Referral = () =>  {
 	        				            <div className="row">
 	        					            <div className="col-md-6">
 	        						            <div className="form-group">
+													<label htmlFor="fname" style={{display:"none"}}>First name</label>
 	        						            	<input type="text" value={form.fname} onChange={handleInputChange} name="fname" id="fname" className="form-control" placeholder="Your First Name" required=""/>
 	        						            </div>
 	        					            </div>
 	        					            <div className="col-md-6">
 	        					            	<div className="form-group">
+													<label htmlFor="lname" style={{display:"none"}}>Last name</label>
 	        					            		<input type="text" value={form.lname} onChange={handleInputChange} name="lname" id="lname" className="form-control" placeholder="Your Last Name" required="" />
 	        					            	</div>
 	        					            </div>
@@ -69,11 +71,13 @@ const Referral = () =>  {
 	        				            <div className="row">
 	        				            	<div className="col-md-6">
 	        				            		<div className="form-group">
+													<label htmlFor="email" style={{display:"none"}}>Email</label>
 	        				            			<input type="email" value={form.email} onChange={handleInputChange} name="email" id="email" className="form-control" placeholder="Your Email" required="" />
 	        				            		</div>
 	        				            	</div>
 	        				            	<div className="col-md-6">
 	        				            		<div className="form-group">
+													<label htmlFor="phone" style={{display:"none"}}>Phone</label>
 	        				            			<input type="text" value={form.phone} onChange={handleInputChange} name="phone" id="phone" className="form-control" placeholder="Your Phone Number" required="" />
 	        				            		</div>
 	        				            	</div>
@@ -81,11 +85,13 @@ const Referral = () =>  {
 	        				            <div className="row">
 	        				            	<div className="col-md-6">
 	        				            		<div className="form-group">
+													<label htmlFor="pfname" style={{display:"none"}}>Patient first name</label>
 	        				            			<input type="text" value={form.pfname} onChange={handleInputChange} name="pfname" id="pfname" className="form-control" placeholder="Patients First Name" required="" />
 	        				            		</div>
 	        				            	</div>
 	        				            	<div className="col-md-6">
 	        				            		<div className="form-group">
+													<label htmlFor="plname" style={{display:"none"}}>Patient last name</label>
 	        				            			<input type="text" value={form.plname} onChange={handleInputChange} name="plname" id="plname" className="form-control" placeholder="Patients Last Name" required="" />
 	        				            		</div>
 	        				            	</div>
@@ -93,11 +99,13 @@ const Referral = () =>  {
 	        				            <div className="row">
 	        				            	<div className="col-md-6">
 	        				            		<div className="form-group">
+													<label htmlFor="pemail" style={{display:"none"}}>Email</label>
 	        				            			<input type="email" value={form.pemail} onChange={handleInputChange} name="pemail" id="pemail" className="form-control" placeholder="Patients Email" required="" />
 	        				            		</div>
 	        				            	</div>
 	        				            	<div className="col-md-6">
 	        				            		<div className="form-group">
+													<label htmlFor="pphone" style={{display:"none"}}>Patient phone</label>
 	        				            			<input type="text" value={form.pphone} onChange={handleInputChange} name="pphone" id="pphone" className="form-control" placeholder="Patients Phone Number" required="" />
 	        				            		</div>
 	        				            	</div>

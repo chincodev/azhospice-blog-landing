@@ -32,16 +32,16 @@ const Footer = () => (
 			        <div className="logo2">
 						<h2>
 							<a href="index.html">
-							    <img src="../../images/ACHC_20Gold.png" alt="" className="img-fluid" />
+							    <img src="../../images/ACHC_20Gold.webp" alt="" className="img-fluid" />
                             </a>
 						</h2>
 					</div>
 					<h3 className="mb-sm-4 mb-3 text-wh">Social Networks</h3>
 					<ul id="social-li" className="list-unstyled list-part text-wh pt-lg-3">
-						<a href="https://www.linkedin.com/company/53872160 "><li><span className="fa fa-linkedin" aria-hidden="true"></span></li></a>
-						<a href="https://www.facebook.com/AZHOSPICEINC/ "><li className="mx-4"><span className="fa fa-facebook" aria-hidden="true"></span></li></a>
-						<a href="https://www.instagram.com/a_zhospiceinc/ "><li><span className="fa fa-instagram" aria-hidden="true"></span></li></a>
-						<a href="https://twitter.com/hospice_z"><li className="mx-4"><span className="fa fa-twitter" aria-hidden="true"></span></li></a>
+						<li><a aria-label="Linkedin" href="https://www.linkedin.com/company/53872160 "><span className="fa fa-linkedin" aria-hidden="true"></span></a></li>
+						<li className="mx-4"><a aria-label="Facebook" href="https://www.facebook.com/AZHOSPICEINC/ "><span className="fa fa-facebook" aria-hidden="true"></span></a></li>
+						<li><a href="https://www.instagram.com/a_zhospiceinc/ " aria-label="Instagram"><span className="fa fa-instagram" aria-hidden="true"></span></a></li>
+						<li className="mx-4"><a href="https://twitter.com/hospice_z" aria-label="Twitter"><span className="fa fa-twitter" aria-hidden="true"></span></a></li>
 					</ul>
 				</div>
 			</div>

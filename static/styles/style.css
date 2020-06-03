@@ -244,7 +244,7 @@ a.move-top {
 
     height: 34px;
 
-    background: url(../images/move-top.png) no-repeat;
+    background: url(../images/move-top.webp) no-repeat;
 
     display: inline-block;
 
@@ -1515,7 +1515,7 @@ section p{
 }
 .banner-index{
 	min-height: 680px;
-    background: url(../images/3a.jpg) no-repeat top;
+    background: url(../images/3a.webp) no-repeat top;
 
     background-size: cover;
 
@@ -1530,7 +1530,7 @@ section p{
 }
 .banner-our-team {
 	min-height: 500px;
-    background: url(../images/xh6AHhbem5.jpg) no-repeat center;
+    background: url(../images/xh6AHhbem5.webp) no-repeat center;
 
     background-size: cover;
 
@@ -1546,7 +1546,7 @@ section p{
 
 .banner-top1 {
 
-    /* background: url(../images/1.jpg) no-repeat center; */
+    /* background: url(../images/1.webp) no-repeat center; */
 
     background-size: cover;
 
@@ -1564,7 +1564,7 @@ section p{
 
 .banner-top2 {
 
-    background: url(../images/2.jpg) no-repeat bottom;
+    background: url(../images/2.webp) no-repeat bottom;
 
     background-size: cover;
 
@@ -1582,7 +1582,7 @@ section p{
 
 .banner-top3 {
 
-    /* background: url(../images/3.jpg) no-repeat center; */
+    /* background: url(../images/3.webp) no-repeat center; */
 
     background-size: cover;
 
@@ -1871,7 +1871,7 @@ a.blog-btn:hover {
 
 /* section.loan_w3ls {
 
-    background: url(../images/4.jpg) center no-repeat fixed;
+    background: url(../images/4.webp) center no-repeat fixed;
 
     background-size: cover;
 
@@ -1987,7 +1987,7 @@ button.btn_apt:hover {
 
 [type="date"] {
 
-    background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;
+    background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.webp) 97% 50% no-repeat;
 
 	padding-right: 0!important;
 
@@ -2081,7 +2081,7 @@ a.butn-w3pvt {
 
 .services-w3ls {
 
-    background: url(../images/bg2.jpg) no-repeat center fixed;
+    background: url(../images/bg2.webp) no-repeat center fixed;
 
     background-size: cover;
 
@@ -2341,7 +2341,7 @@ a.butn-w3pvt {
 
 footer {
 
-    background: url(../images/bg3.jpg) no-repeat center;
+    background: url(../images/bg3.webp) no-repeat center;
 
     background-size: cover;
 
@@ -2557,7 +2557,7 @@ ul.list-part li {
 
 .main-banner-21 {
 
-    background: url(../images/XZ5dD1BhpV.jpg) no-repeat top;
+    background: url(../images/XZ5dD1BhpV.webp) no-repeat top;
 
     background-size: cover;
 
@@ -2574,7 +2574,7 @@ ul.list-part li {
 }
 .insurance-cover {
 
-    background: url(../images/qu1gIgHFSQ.jpg) no-repeat top;
+    background: url(../images/qu1gIgHFSQ.webp) no-repeat top;
 
     background-size: cover;
 
@@ -2591,7 +2591,7 @@ ul.list-part li {
 }
 .area-cover {
 
-    background: url(../images/2.jpg) no-repeat top;
+    background: url(../images/2.webp) no-repeat top;
 
     background-size: cover;
 
@@ -2608,7 +2608,7 @@ ul.list-part li {
 }
 .contact {
 
-    background: url(../images/referalls.jpg) no-repeat top;
+    background: url(../images/referalls.webp) no-repeat top;
 
     background-size: cover;
 	background-position: center;
@@ -2625,7 +2625,7 @@ ul.list-part li {
 }
 .hospice_banner {
 
-    background: url(../images/services-provide.jpg) no-repeat top;
+    background: url(../images/services-provide.webp) no-repeat top;
 
     background-size: cover;
 	background-position: center;
@@ -2642,7 +2642,7 @@ ul.list-part li {
 }
 .about_banner {
 
-    background: url(../images/about.jpg) no-repeat top;
+    background: url(../images/about.webp) no-repeat top;
 
     background-size: cover;
 
@@ -2659,7 +2659,7 @@ ul.list-part li {
 }
 .referalls {
 
-    background: url(../images/referalls.jpg) no-repeat top;
+    background: url(../images/referalls.webp) no-repeat top;
 
     background-size: cover;
 	background-position: center;
@@ -2677,7 +2677,7 @@ ul.list-part li {
 }
 .services-provide {
 
-    background: url(../images/services-provide.jpg) no-repeat top;
+    background: url(../images/services-provide.webp) no-repeat top;
 
     background-size: cover;
 
@@ -2694,7 +2694,7 @@ ul.list-part li {
 }
 .main-banner-2 {
 
-    /* background: url(../images/1.jpg) no-repeat top; */
+    /* background: url(../images/1.webp) no-repeat top; */
 
     background-size: cover;
 
@@ -4338,7 +4338,7 @@ li.banner-our-team .banner-info_agile_w3ls.text-center.mx-auto {
 }
 .banner-our-team {
     min-height: 400px;
-    background: url(../images/xh6AHhbem5.jpg) no-repeat top;
+    background: url(../images/xh6AHhbem5.webp) no-repeat top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
