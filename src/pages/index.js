@@ -159,11 +159,11 @@ const IndexPage = () => {
                       and medically directed team. The Hospice team consists of
                       different disciplines, including a physician, a nurse, a
                       home health aide, a social worker, a spiritual counselor,
-                      and a volunteer... To read more,  
+                      and a volunteer... Read more about 
                     </p>
 
                     <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
-                      Click here
+                      Our Team
                     </Link>
                   </div>
                 </div>
@@ -191,11 +191,11 @@ const IndexPage = () => {
                       support to patients and families members. They ensure that
                       patients have the spiritual support that they need and
                       provide a bridge between the patient and the religious
-                      community... To read more, 
+                      community... Read more about 
                     </p>
 
                     <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
-                      Click here
+                      Our Team
                     </Link>
                   </div>
                 </div>
@@ -223,11 +223,11 @@ const IndexPage = () => {
                       patients, more specifically focusing on overall hygiene
                       and assistance with activities such as bathing, feeding,
                       shaving, walking, and so on.Our home health aides are very
-                      sensitive to the... To read more, 
+                      sensitive to the... Read more about 
                     </p>
 
                     <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
-                      Click here
+                      Our Team
                     </Link>
                   </div>
                 </div>
@@ -253,8 +253,8 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       Pain management is one of the primary goals of hospice
-                      service...{' '} To read more,  
-                      <Link to="/about-us/services-we-provide">Click here</Link>
+                      service...{' '} Read more about 
+                      <Link to="/about-us/services-we-provide">Our Team</Link>
                     </p>
                   </div>
                 </div>
@@ -267,8 +267,8 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       At A-Z Hospice our professional Staff are board approved
-                      Nurses ...{' '} To read more, 
-                      <Link to="/about-us/services-we-provide">Click here</Link>
+                      Nurses ...{' '} Read more about 
+                      <Link to="/about-us/services-we-provide">Our Team</Link>
                     </p>
                   </div>
                 </div>
@@ -283,7 +283,7 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       Continuous Home Care is typically used during times of
-                      crisis. To read more, <Link to="/about-us/services-we-provide">Click here</Link>
+                      crisis. Read more about  <Link to="/about-us/services-we-provide">Our Team</Link>
                     </p>
                   </div>
                 </div>
@@ -296,8 +296,8 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       At A-Z Hospice, Our On-Call Skilled nurses available 24
-                      hours a day.{' '} To read more,  
-                      <Link to="/about-us/services-we-provide">Click here</Link>
+                      hours a day.{' '} Read more about ,  
+                      <Link to="/about-us/services-we-provide">Our Team</Link>
                     </p>
                   </div>
                 </div>
