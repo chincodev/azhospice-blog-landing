@@ -159,11 +159,11 @@ const IndexPage = () => {
                       and medically directed team. The Hospice team consists of
                       different disciplines, including a physician, a nurse, a
                       home health aide, a social worker, a spiritual counselor,
-                      and a volunteer...
+                      and a volunteer... To read more,  
                     </p>
 
                     <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
-                      Read more
+                      Click here
                     </Link>
                   </div>
                 </div>
@@ -191,11 +191,11 @@ const IndexPage = () => {
                       support to patients and families members. They ensure that
                       patients have the spiritual support that they need and
                       provide a bridge between the patient and the religious
-                      community...
+                      community... To read more, 
                     </p>
 
                     <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
-                      Read more
+                      Click here
                     </Link>
                   </div>
                 </div>
@@ -214,7 +214,7 @@ const IndexPage = () => {
                   <div className="card-body border border-top-0">
                     <div className="mb-3">
                       <h5 className="blog-title card-title m-0">
-                        Home Health Aides
+                        To read more
                       </h5>
                     </div>
 
@@ -223,11 +223,11 @@ const IndexPage = () => {
                       patients, more specifically focusing on overall hygiene
                       and assistance with activities such as bathing, feeding,
                       shaving, walking, and so on.Our home health aides are very
-                      sensitive to the...
+                      sensitive to the... To read more, 
                     </p>
 
                     <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
-                      Read more
+                      Click here
                     </Link>
                   </div>
                 </div>
@@ -253,8 +253,8 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       Pain management is one of the primary goals of hospice
-                      service...{' '}
-                      <Link to="/about-us/services-we-provide">Read More</Link>
+                      service...{' '} To read more,  
+                      <Link to="/about-us/services-we-provide">Click here</Link>
                     </p>
                   </div>
                 </div>
@@ -267,8 +267,8 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       At A-Z Hospice our professional Staff are board approved
-                      Nurses ...{' '}
-                      <Link to="/about-us/services-we-provide">Read More</Link>
+                      Nurses ...{' '} To read more, 
+                      <Link to="/about-us/services-we-provide">Click here</Link>
                     </p>
                   </div>
                 </div>
@@ -283,7 +283,7 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       Continuous Home Care is typically used during times of
-                      crisis. <Link to="/about-us/services-we-provide">Read More</Link>
+                      crisis. To read more, <Link to="/about-us/services-we-provide">Click here</Link>
                     </p>
                   </div>
                 </div>
@@ -296,8 +296,8 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       At A-Z Hospice, Our On-Call Skilled nurses available 24
-                      hours a day.{' '}
-                      <Link to="/about-us/services-we-provide">Read More</Link>
+                      hours a day.{' '} To read more,  
+                      <Link to="/about-us/services-we-provide">Click here</Link>
                     </p>
                   </div>
                 </div>

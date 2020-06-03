@@ -1622,7 +1622,8 @@ a.button-w3ls {
 
     letter-spacing: 1px;
 
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bold;
 
     padding: 14px 18px;
 
@@ -2678,6 +2679,24 @@ ul.list-part li {
 .services-provide {
 
     background: url(../images/services-provide.webp) no-repeat top;
+
+    background-size: cover;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    -ms-background-size: cover;
+
+    min-height: 300px;
+
+}
+
+.our-team-banner {
+
+    background: url(../images/xh6AHhbem5.webp) no-repeat top;
 
     background-size: cover;
 
