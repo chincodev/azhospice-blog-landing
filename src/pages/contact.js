@@ -50,7 +50,7 @@ const Contact = () => {
 	            		<div className="row pt-md-0">
 	            		    <div className="col-lg-6 contact-agileits-w3layouts">
 	            			    <div className="midd-contact my-xl-5 my-4 pl-4 border-left">
-	            					<h5 className="text-bl mb-2">Address & Direction:</h5>
+	            					<h4 className="text-bl mb-2">Address & Direction:</h4>
 	            				</div>
 	            				<div className="midd-contact my-xl-5 my-4 pl-4 border-left">						
                                     <h6 className="text-bl mb-2">Office hours:</h6>						
@@ -80,19 +80,19 @@ const Contact = () => {
 	            				<div className="form-bg-w3ls">
 	            					<form onSubmit={handleSubmit} id="myform">
 	            						<div className="form-group">
-											<label htmlFor="Name" style={{display:"none"}}>Name</label>
-	            							<input type="text" value={form.Name} onChange={handleInputChange} name="Name" id="name" className="form-control" placeholder="Name" required="" />
+											<label htmlFor="Name">Name</label>
+	            							<input type="text" value={form.Name} onChange={handleInputChange} name="Name" id="name" className="form-control" placeholder="Type your name here..." required="" />
 	            						</div>
 	            						<div className="form-group">
-											<label htmlFor="Email" style={{display:"none"}}>Email</label>
-	            							<input type="email" value={form.Email} onChange={handleInputChange} name="Email" id="email" className="form-control" placeholder="Email" required="" />
+											<label htmlFor="Email" >Email</label>
+	            							<input type="email" value={form.Email} onChange={handleInputChange} name="Email" id="email" className="form-control" placeholder="Type your email here..." required="" />
 	            						</div>
 	            						<div className="form-group">
-											<label htmlFor="Subject" style={{display:"none"}}>Subject</label>
-	            							<input type="text" value={form.Subject} onChange={handleInputChange} name="Subject" id="subject" className="form-control" placeholder="Subject" required="" />
+											<label htmlFor="Subject" >Subject</label>
+	            							<input type="text" value={form.Subject} onChange={handleInputChange} name="Subject" id="subject" className="form-control" placeholder="Type your subject here..." required="" />
 	            						</div>
 	            						<div className="form-group">
-											<label htmlFor="Message" style={{display:"none"}}>Message</label>
+											<label htmlFor="Message" >Message</label>
 	            							<textarea name="Message" value={form.Message} onChange={handleInputChange} className="form-control" id="message" placeholder="Type your message here..." required=""></textarea>
 	            						</div>
 	            						<button  ref={submitButton} type="submit" className="button-w3layouts btn text-uppercase">Submit</button>													
