@@ -162,7 +162,7 @@ const IndexPage = () => {
                       and a volunteer...
                     </p>
 
-                    <Link to="/about-us/our-team" className="btn blog-btn mt-4">
+                    <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
                       Read more
                     </Link>
                   </div>
@@ -194,7 +194,7 @@ const IndexPage = () => {
                       community...
                     </p>
 
-                    <Link to="/about-us/our-team" className="btn blog-btn mt-4">
+                    <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
                       Read more
                     </Link>
                   </div>
@@ -226,7 +226,7 @@ const IndexPage = () => {
                       sensitive to the...
                     </p>
 
-                    <Link to="/about-us/our-team" className="btn blog-btn mt-4">
+                    <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
                       Read more
                     </Link>
                   </div>

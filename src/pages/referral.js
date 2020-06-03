@@ -48,7 +48,7 @@ const Referral = () =>  {
 	        	    <div className="container py-xl-5 py-lg-3">
 	        	        <div style={{display: "flex", alignItems: "center",justifyContent: "space-between"}} className="title-section mb-sm-5 mb-4">
 	        		        <h3 className="w3ls-title text-uppercase text-bl font-weight-bold">Patient Referral</h3>
-                            <a target="_blank" href={"../../documents/A-Z-Hospice-Hospice-Referral-Sheet.pdf"} className="btn button-w3ls">DOWNLOAD REFFERAL FAX</a>
+                            <a target="_blank" rel="noreferrer" href={"../../documents/A-Z-Hospice-Hospice-Referral-Sheet.pdf"} className="btn button-w3ls">DOWNLOAD REFFERAL FAX</a>
 	        	        </div>
 	        	        <div className="row pt-md-0">
 	        		        <div className="col-lg-12 regstr-r-w3-agileits mt-lg-0 mt-5">

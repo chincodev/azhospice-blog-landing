@@ -21,7 +21,7 @@ const ServicesWeProvide = () => {
                                         <h3 className="text-wh font-weight-bold">WELCOME TO A-Z HOSPICE INC.</h3>
                                         <h4 className="text-wh font-weight-bold">Your Health Matters</h4>
                                         <p className="text-wh font-weight-normal"></p>
-                                        <Link to="/contact" className="btn button-w3ls mt-5">Contact Us Now</Link>
+                                        <Link to="/contact" aria-label="Contact us" className="btn button-w3ls mt-5">Contact Us Now</Link>
                                     </div>
                                 </div>
                             </li>
