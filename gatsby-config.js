@@ -20,7 +20,7 @@ module.exports = {
     title: 'a-zhospice',
     description:
       'your health is our number one priority.',
-    siteUrl: 'https://a-zhospice.com',
+    siteUrl: 'https://hopeful-lumiere-96d9c6.netlify.app',
     image: '/images/logo.jpg',
     menuLinks: [
       {
