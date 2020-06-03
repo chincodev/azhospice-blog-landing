@@ -21,7 +21,7 @@ module.exports = {
     description:
       'your health is our number one priority.',
     siteUrl: 'https://a-zhospice.com',
-    image: '/images/AZlogoBG.png',
+    image: '/images/logo.jpg',
     menuLinks: [
       {
         name: 'Home',
