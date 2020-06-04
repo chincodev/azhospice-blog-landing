@@ -27,9 +27,11 @@ const ShareButtons = ({title,tags,slug}) => {
     const baseUrl = site.siteMetadata.siteUrl
 
     useEffect(() => {
+      var _tags=[]; 
       tags.map(tag => {
-        setTagies([...tagies, tag.title]);
+        _tags=[..._tags, tag.title];
       })
+      setTagies(_tags)
     }, [])
 
     return (
@@ -39,7 +41,6 @@ const ShareButtons = ({title,tags,slug}) => {
               <FacebookShareButton url={baseUrl+'/blog/'+slug}>
                   <span className="fa share-btn fa-facebook mr-2"></span>
               </FacebookShareButton>
-              {console.log(tagies)}
               <TwitterShareButton  url={baseUrl+'/blog/'+slug} title={title} via={'a-zhospice'} hashtags={tagies} >
                   <span style={{paddingLeft: "1rem !important", paddingRight: "1rem !important"}} className="fa share-btn fa-twitter mr-2"></span> 
               </TwitterShareButton> 
