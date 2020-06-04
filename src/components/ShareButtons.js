@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {
 	FacebookShareButton,
 	LinkedinShareButton,
@@ -21,8 +21,16 @@ const ShareButtons = ({title,tags,slug}) => {
           }
         `
       )
+    const tagiesInitialState = [];     
+    const [tagies, setTagies] = useState(tagiesInitialState)
 
     const baseUrl = site.siteMetadata.siteUrl
+
+    useEffect(() => {
+      tags.map(tag => {
+        setTagies([...tagies, tag.title]);
+      })
+    }, [])
 
     return (
         <div >
@@ -31,7 +39,8 @@ const ShareButtons = ({title,tags,slug}) => {
               <FacebookShareButton url={baseUrl+'/blog/'+slug}>
                   <span className="fa share-btn fa-facebook mr-2"></span>
               </FacebookShareButton>
-              <TwitterShareButton url={baseUrl+'/blog/'+slug} title={title} via={'@a-zhospice'} hashtags={tags} >
+              {console.log(tagies)}
+              <TwitterShareButton style={{paddingLeft: "1rem !important"}} url={baseUrl+'/blog/'+slug} title={title} via={'a-zhospice'} hashtags={tagies} >
                   <span className="fa share-btn fa-twitter mr-2"></span> 
               </TwitterShareButton> 
               <LinkedinShareButton url={baseUrl+'/blog/'+slug} title={title} >
