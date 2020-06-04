@@ -6,7 +6,7 @@ import SEO from '../../components/SEO'
 const AreaOfCover = () => {
     return (
         <Layout>
-            <SEO title="What to expect" description="If your address falls in the map or in any of the neighborhoods below, then a-z hospice inc has you covered!" />
+            <SEO title="Area of cover" description="This is the list of cities where we can offer our great services." />
             <Container>
                 <div class="no-wh-bg">
                     <div className="area-cover" />

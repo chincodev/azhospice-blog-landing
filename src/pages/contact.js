@@ -39,7 +39,7 @@ const Contact = () => {
 	
     return (
         <Layout>
-            <SEO title="Contact" description="Contact description goes here" />
+            <SEO title="Contact" description="Information about how to contact us" />
             <Container>
                 <div className="contact" />
                 <div className="contact-w3l py-5" id="contact">

@@ -6,7 +6,7 @@ import SEO from '../../components/SEO'
 const WhatToExpect = () => {
     return (
         <Layout>
-            <SEO title="What to expect" description="What to expect when starting hospice at home" />
+            <SEO title="What to expect" description="We offer great services for you with hospice at home!" />
             <Container>
 				<div class="no-wh-bg">
                	 	<div className="main-banner-21"></div>
