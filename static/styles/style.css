@@ -869,7 +869,9 @@ section p{
 .share-btn:active{
     outline: none;
 }
-
+div.share-buttons > div:nth-child(2) > div{
+    float: right;
+}
 
 
 
@@ -882,6 +884,10 @@ section p{
         border-radius: 4px;
         z-index: 9;
     }    
+    div.share-buttons > div:nth-child(2) > div{
+        float: left !important;
+    }
+    
     .banner-container h3,
     .banner-container p {
         width: 100% !important;
