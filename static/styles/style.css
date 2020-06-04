@@ -789,6 +789,12 @@ padding-top: 1em;
     margin: 0px auto 1em;
 }
 
+.css-198q7wb.ert9h0{
+    padding:15px
+}
+
+
+
 
 .tag-list-item {
     display: inline-block;
@@ -2730,22 +2736,24 @@ ul.list-part li {
 
 
 }
-.css-19zrt1i-Numbers{
+#main > div.container.py-xl-5.py-lg-3.postList > div > div:first-child{
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
 }
 
-.css-cltqur-Wrapper.ert9h0{
+div.container.py-xl-5.py-lg-3 > div{
     margin: 2rem 0 2rem;
     padding-left: 15px !important;
     padding-right: 15px !important;
 }
+.postList > div,
 .post-links{
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
-.css-c5c8cw-Button, .post-links a{
+
+.postList > div a, .post-links a{
     color: #fff;
     letter-spacing: 1px;
     font-size: 18px;
@@ -2767,6 +2775,7 @@ ul.list-part li {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
 }
+
 
 #main > div > div:nth-child(4) > div {
     display: flex;
