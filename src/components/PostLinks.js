@@ -7,7 +7,7 @@ import { Link } from 'gatsby'
 const PostLinks = props => {
   return (
     <div>
-      <div>
+      <div class="post-links">
         {props.previous && (
           <Link to={`${props.basePath}/${props.previous.slug}/`}>
             &#8592; Prev

@@ -8,7 +8,9 @@ const WhatToExpect = () => {
         <Layout>
             <SEO title="What to expect" description="What to expect when starting hospice at home" />
             <Container>
-                <div className="main-banner-21"></div>
+				<div class="no-wh-bg">
+               	 	<div className="main-banner-21"></div>
+				</div>
                 <section className="about py-5">
 		            <div className="container py-xl-5 py-lg-3">
 			            <div className="title-section mb-md-5 mb-4">

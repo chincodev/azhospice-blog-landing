@@ -18,7 +18,7 @@ const ServicesWeProvide = () => {
 				            <div className="col-lg-4 col-md-6">
 					            <div className="card border-0 med-blog">
 						            <div className="card-header p-0">
-							            <img className="card-img-bottom" src="../images/GiQtK1X7gz.webp" alt="image" />
+							            <img className="card-img-bottom" src="../images/Health-Care-Team.webp" alt="image" />
 						            </div>
 						            <div className="card-body border border-top-0">
 							            <div className="mb-3">

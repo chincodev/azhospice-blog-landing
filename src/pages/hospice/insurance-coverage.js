@@ -8,7 +8,9 @@ const WhatToExpect = () => {
         <Layout>
             <SEO title="Insurance coverage" description="What hapens if a patient has medicare part" />
             <Container>
-				<div className="insurance-cover"></div>
+				<div class="no-wh-bg">
+					<div className="insurance-cover"></div>
+				</div>
                 <section className="about py-5">
 		            <div className="container py-xl-5 py-lg-3">
 			            <div className="title-section mb-md-5 mb-4">

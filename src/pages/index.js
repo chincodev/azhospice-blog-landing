@@ -12,7 +12,7 @@ const IndexPage = () => {
         description="your health is our number one priority. We invite you to find out more about our Hospice, our staff, and the various services that we provide."
       />
       <Container>
-        <div className="banner_w3lspvt">
+        <div className="banner_w3lspvt" style={{margin: "0 auto",maxWidth: "1920px"}}>
           <div className="csslider infinity" id="slider1">
             <input type="radio" name="slides" defaultChecked={true} id="slides_1" />
             <input type="radio" name="slides" id="slides_2" />
@@ -99,7 +99,7 @@ const IndexPage = () => {
         </div>
 
         <div className="section-2">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row slide">
               <div className="col-xl-4 triple-sec p-5 text-center">
                 <h5 className="text-wh font-weight-bold">Free Consultation</h5>

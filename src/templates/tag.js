@@ -32,28 +32,50 @@ const TagTemplate = ({ data, pageContext }) => {
   }
 
   return (
-    <>
-      <Layout>
+    <Layout>
         <SEO
           title={`Tag: ${startCase(title)}`}
           description={`Posts Tagged: ${startCase(title)}`}
           image={ogImage}
         />
-        <Container>
-          <PageTitle small>
-            {numberOfPosts} Posts Tagged: &ldquo;
-            {title}
-            &rdquo;
-          </PageTitle>
-          <CardList>
-            {posts.slice(skip, limit * humanPageNumber).map(post => (
-              <Card {...post} key={post.id} basePath={basePath} />
-            ))}
-          </CardList>
-        </Container>
-        <Pagination context={pageContext} />
-      </Layout>
-    </>
+        <div style={{ backgroundImage:`url("${posts[0].heroImage.ogimg.src}")`, backgroundRepeat: "no-repeat", backgroundPosition: "center"}}>
+        <div className="blurry" style={{minHeight:"300px"}}>
+        <div  className="container py-xl-5 py-lg-3 banner-container">
+          <h3 className="text-wh font-weight-bold banner-title">{numberOfPosts} Posts Tagged: &ldquo;{title}&rdquo;</h3>
+        </div>
+        </div>
+      </div>
+      <div className="container py-xl-5 py-lg-3">
+      <CardList>
+      {posts.slice(skip, limit * humanPageNumber).map(post => (
+        <Card {...post} key={post.id} basePath={basePath} />
+      ))}
+      </CardList>
+      <Pagination context={pageContext} />
+      </div>
+    </Layout>
+    // <>
+    //   <Layout>
+    //     <SEO
+    //       title={`Tag: ${startCase(title)}`}
+    //       description={`Posts Tagged: ${startCase(title)}`}
+    //       image={ogImage}
+    //     />
+    //     <Container>
+    //       <PageTitle small>
+    //         {numberOfPosts} Posts Tagged: &ldquo;
+    //         {title}
+    //         &rdquo;
+    //       </PageTitle>
+    //       <CardList>
+    //         {posts.slice(skip, limit * humanPageNumber).map(post => (
+    //           <Card {...post} key={post.id} basePath={basePath} />
+    //         ))}
+    //       </CardList>
+    //     </Container>
+    //     <Pagination context={pageContext} />
+    //   </Layout>
+    // </>
   )
 }
 

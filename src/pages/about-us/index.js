@@ -8,7 +8,9 @@ const About = () => {
         <Layout>
             <SEO title="About us" description="We invite you to find out more about our Hospice, our staff, and the various services that we provide." />
             <Container>
-                <div className="about_banner">
+                <div class="no-wh-bg">
+                    <div className="about_banner">
+                    </div>
                 </div>
                 <section className="about py-5">
                     <div className="container py-xl-5 py-lg-3">

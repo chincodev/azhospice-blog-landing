@@ -68,7 +68,7 @@ module.exports = {
         slug: '/contact/',
       },
       {
-        name: 'Blog',
+        name: 'Knowledge base',
         slug: '/blog/',
       },
     ],

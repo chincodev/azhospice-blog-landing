@@ -15,6 +15,9 @@ const Posts = ({ data, pageContext }) => {
   let featuredPost
   let ogImage
 
+
+
+
   try {
     featuredPost = posts[0].node
   } catch (error) {
@@ -28,24 +31,23 @@ const Posts = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title={startCase(basePath)} image={ogImage} />
+      <SEO title={"Knowledge base"} description="Interested in learning more about Hospice? This section features the basis of knowledge that directs our hospice." image={ogImage} />
+      <div className="blog-cover">
+        <div className="blurry">
+        <div  className="container py-xl-5 py-lg-3 banner-container">
+          <h3 className="text-wh font-weight-bold banner-title">Knowledge base</h3>
+          <p className="banner-description">Interested in learning more about Hospice? This section features the basis of knowledge that directs our hospice.</p>
+        </div>
+        </div>
+      </div>
       <div className="container py-xl-5 py-lg-3">
-        {isFirstPage ? (
-          <CardList>
-            <Card {...featuredPost} featured basePath={basePath} />
-            {posts.slice(1).map(({ node: post }) => (
-              <Card key={post.id} {...post} basePath={basePath} />
-            ))}
-          </CardList>
-        ) : (
-          <CardList>
-            {posts.map(({ node: post }) => (
-              <Card key={post.id} {...post} basePath={basePath} />
-            ))}
-          </CardList>
-        )}
-</div>
+      <CardList>
+        {posts.map(({ node: post }) => (
+          <Card key={post.id} {...post} basePath={basePath} />
+        ))}
+      </CardList>
       <Pagination context={pageContext} />
+      </div>
     </Layout>
   )
 }

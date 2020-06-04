@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const Footer = () => (
-    <footer className="py-5">
+    <footer className="py-5" style={{margin: "0 auto",maxWidth: "1920px"}}>
 	    <div className="container py-xl-5 py-lg-3">
 			<div className="row">
 				<div className="col-lg-7 w3l-footer">

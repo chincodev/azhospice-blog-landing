@@ -8,7 +8,9 @@ const AreaOfCover = () => {
         <Layout>
             <SEO title="What to expect" description="If your address falls in the map or in any of the neighborhoods below, then a-z hospice inc has you covered!" />
             <Container>
-                <div className="area-cover" />
+                <div class="no-wh-bg">
+                    <div className="area-cover" />
+                </div>
                 <div className="contact-w3l py-5" id="list-ul">
                     <div className="container py-xl-5 py-lg-3">
                         <div className="title-section mb-sm-5 mb-4">

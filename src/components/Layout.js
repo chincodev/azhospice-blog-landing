@@ -1,15 +1,15 @@
 import React, { useEffect, lazy, Suspense } from 'react'
 import styled from '@emotion/styled'
-// import Nav from './Nav'
-// import Footer from '../components/Footer'
-// import Header from '../components/Header'
-// import Copyright from '../components/Copyright'
+import Nav from './Nav'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+import Copyright from '../components/Copyright'
 
-const Footer = React.lazy(() => import('./Footer'));
-const Header = React.lazy(() => import('./Header'));
-const Copyright = React.lazy(() => import('./Copyright'));
-const Nav = React.lazy(() => import('./Nav'));
-import BounceLoaderFullSize from './BounceLoaderFullSize';
+// const Footer = React.lazy(() => import('./Footer'));
+// const Header = React.lazy(() => import('./Header'));
+// const Copyright = React.lazy(() => import('./Copyright'));
+// const Nav = React.lazy(() => import('./Nav'));
+// import BounceLoaderFullSize from './BounceLoaderFullSize';
 
 
 import "../../static/styles/bootstrap.css"
@@ -31,7 +31,7 @@ const Layout = props => {
 
   return (
     <div className="siteRoot">
-        <Suspense fallback={<BounceLoaderFullSize />}>
+     
             <div className="siteContent">
                 <Header />
                 <Nav />
@@ -39,7 +39,7 @@ const Layout = props => {
             </div>
             <Footer />
             <Copyright />
-        </Suspense>
+      
     </div>
   )
 }

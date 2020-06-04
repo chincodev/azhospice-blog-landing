@@ -8,7 +8,9 @@ const Hospice = () => {
         <Layout>
             <SEO title="Contact" description="Contact description goes here" />
             <Container>
-                <div className="hospice_banner" />
+				<div class="no-wh-bg">
+                	<div className="hospice_banner" />
+				</div>
                 <section className="about py-5">
 	            	<div className="container py-xl-5 py-lg-3">
 	            		<div className="title-section mb-md-5 mb-4">

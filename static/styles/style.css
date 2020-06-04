@@ -3,6 +3,8 @@
 
 
 --*/
+
+
 .text-bl a {
     color: #343a40;
 }
@@ -760,6 +762,58 @@ div#list-ul {
 }
 
 
+.banner-title{
+    color:white;
+    font-size:55px
+}
+
+.banner-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner-container h3,
+.banner-container p {
+    width: 60%;
+}
+.banner-description {
+    font-weight:700;
+    font-size: 1.5rem; 
+    color:white
+}
+
+.tag-list {
+padding-top: 1em;
+    width: 100%;
+    margin: 0px auto 1em;
+}
+
+
+.tag-list-item {
+    display: inline-block;
+    margin: 0px 0.25em 0.25em 0px;
+}
+
+
+
+.post p{
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0px 0px 2em;
+}
+
+.tag-list-item a{
+    float: left;
+    text-transform: capitalize;
+    color: #121212;
+    transition: all 0.2s ease 0s;
+    padding: 0.5em;
+    border-radius: 2px;
+    text-decoration: none;
+    background: #f6f6f6;
+    border: 1px solid #d6d6d6;
+}
 /* Media Queries
 
 --------------------------------------------- */
@@ -794,6 +848,33 @@ section p{
     padding-bottom: 1em;
 }
 
+.share-buttons {
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.share-btn{
+    
+    font-size: 1.7em;
+    color:#3e58ff;
+}
+.share-btn{
+    padding-left: 1rem !important;
+}
+
+.share-btn:hover{
+
+    color:#0524e9 !important;
+}
+
+.share-btn:active{
+    outline: none;
+}
+
+
+
+
 @media all and (max-width : 736px) {
     nav ul ul {
         position: absolute;
@@ -803,6 +884,38 @@ section p{
         border-radius: 4px;
         z-index: 9;
     }    
+    .banner-container h3,
+    .banner-container p {
+        width: 100% !important;
+    }
+    .share-buttons {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    div.share-buttons > div:nth-child(2){
+        padding-bottom: 2em;
+    }
+    
+.banner-title{
+    text-align: center;
+    color:white;
+    font-size: 32px;
+
+}
+
+.banner-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner-description {
+    text-align: center;
+    font-weight:700;
+    font-size: .9rem; 
+    color:white
+}
     
 
     #gatsby-focus-wrapper > div > div.siteContent > div.main-top > div > div > div.nav_w3ls > nav > ul > li > ul.active{
@@ -1852,7 +1965,23 @@ a.blog-btn {
     -ms-transition: 0.5s all;
 
 }
+.post-card:hover{
+    background-color: rgb(243, 243, 243);
+}
+.post-card{
+    margin-top: 1em;
+}
 
+
+.text-preview{
+    line-height: 1.5;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
 
 
 a.blog-btn:hover {
@@ -2566,7 +2695,8 @@ ul.list-part li {
 /* inner pages */
 
 .main-banner-21 {
-
+    margin: 0 auto;
+    max-width: 1920px;
     background: url(../images/XZ5dD1BhpV.webp) no-repeat top;
 
     background-size: cover;
@@ -2584,6 +2714,8 @@ ul.list-part li {
 }
 .insurance-cover {
 
+    margin: 0 auto;
+    max-width: 1920px;
     background: url(../images/qu1gIgHFSQ.webp) no-repeat top;
 
     background-size: cover;
@@ -2598,9 +2730,84 @@ ul.list-part li {
 
     min-height: 300px;
 
-}
-.area-cover {
 
+}
+.css-19zrt1i-Numbers{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.css-cltqur-Wrapper.ert9h0{
+    margin: 2rem 0 2rem;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.post-links{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.css-c5c8cw-Button, .post-links a{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 18px;
+    background: hsl(14, 79%, 32%);
+    display: inline-block;
+    border-radius: 0px;
+}
+.css-c5c8cw-Button:hover{
+    color:#fff;
+    background: hsl(14, 87%, 21%);
+
+}
+.blurry{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+#main > div > div:nth-child(4) > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-cover {
+
+    /* display: flex;
+
+    align-items: center;
+
+    justify-content: flex-start; */
+    margin: 0 auto;
+    max-width: 1920px;
+
+    background: url(../images/blog-banner.webp) no-repeat top;
+
+    background-size: cover;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    -ms-background-size: cover;
+
+
+
+}
+
+.no-wh-bg{
+    background-color: #f6efe2;
+}
+
+.area-cover {
+    margin: 0 auto;
+    max-width: 1920px;
     background: url(../images/2.webp) no-repeat top;
 
     background-size: cover;
@@ -2617,8 +2824,9 @@ ul.list-part li {
 
 }
 .contact {
-
-    background: url(../images/referalls.webp) no-repeat top;
+    margin: 0 auto;
+    max-width: 1920px;
+    background: url(../images/how-hospice-works.webp) no-repeat top;
 
     background-size: cover;
 	background-position: center;
@@ -2633,8 +2841,10 @@ ul.list-part li {
     min-height: 300px;
 
 }
-.hospice_banner {
-
+.hospice_banner { margin: 0 auto;
+    max-width: 1920px;
+margin: 0 auto;
+  max-width: 1920px;
     background: url(../images/services-provide.webp) no-repeat top;
 
     background-size: cover;
@@ -2650,7 +2860,8 @@ ul.list-part li {
     min-height: 300px;
 
 }
-.about_banner {
+.about_banner { margin: 0 auto;
+    max-width: 1920px;
 
     background: url(../images/about.webp) no-repeat top;
 
@@ -2668,8 +2879,9 @@ ul.list-part li {
 
 }
 .referalls {
-
-    background: url(../images/referalls.webp) no-repeat top;
+    margin: 0 auto;
+    max-width: 1920px;
+    background: url(../images/how-hospice-helps-families.webp) no-repeat top;
 
     background-size: cover;
 	background-position: center;
@@ -2686,7 +2898,8 @@ ul.list-part li {
 
 }
 .services-provide {
-
+    margin: 0 auto;
+    max-width: 1920px;
     background: url(../images/services-provide.webp) no-repeat top;
 
     background-size: cover;
@@ -2703,9 +2916,10 @@ ul.list-part li {
 
 }
 
-.our-team-banner {
+.our-team-banner { margin: 0 auto;
+    max-width: 1920px;
 
-    background: url(../images/xh6AHhbem5.webp) no-repeat top;
+    background: url(../images/Health-Care-Team.webp) no-repeat center;
 
     background-size: cover;
 
@@ -4373,7 +4587,8 @@ li.banner-our-team .banner-info_agile_w3ls.text-center.mx-auto {
     -o-background-size: cover;
     -moz-background-size: cover;
 }
-.about_banner {
+.about_banner { margin: 0 auto;
+    max-width: 1920px;
 
     background-position: center;
 }

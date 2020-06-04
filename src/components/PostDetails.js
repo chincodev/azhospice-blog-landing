@@ -4,10 +4,10 @@ import styled from '@emotion/styled'
 
 const PostDetails = props => {
   return (
-    <div>
-      <p>📅 {props.date}</p>
-      <span>•</span>
-      <p>{`⏱️${props.timeToRead} min read `}</p>
+    <div class="post-details">
+      <p>📅 {props.date}
+      <br></br>
+      {`⏱️ ${props.timeToRead} min read `}</p>
     </div>
   )
 }

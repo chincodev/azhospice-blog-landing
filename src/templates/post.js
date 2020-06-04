@@ -7,7 +7,9 @@ import PageBody from '../components/PageBody'
 import TagList from '../components/TagList'
 import PostLinks from '../components/PostLinks'
 import PostDetails from '../components/PostDetails'
+import ShareButtons from '../components/ShareButtons'
 import SEO from '../components/SEO'
+
 
 const PostTemplate = ({ data, pageContext }) => {
   const {
@@ -17,6 +19,7 @@ const PostTemplate = ({ data, pageContext }) => {
     body,
     publishDate,
     tags,
+    slug
   } = data.contentfulPost
 
   const previous = pageContext.prev
@@ -42,15 +45,22 @@ const PostTemplate = ({ data, pageContext }) => {
         image={ogImage}
       />
       <Hero title={title} image={heroImage} height={'50vh'} />
-      <Container>
+      <div className="container py-xl-5 py-lg-3 post">
         {tags && <TagList tags={tags} basePath={basePath} />}
+        <div className="share-buttons">
         <PostDetails
           date={publishDate}
           timeToRead={body.childMarkdownRemark.timeToRead}
         />
+     
+        <ShareButtons slug={slug} title={title} tags={tags}/>
+
+             
+          </div>
         <PageBody body={body} />
-      </Container>
+      
       <PostLinks previous={previous} next={next} basePath={basePath} />
+      </div>
     </Layout>
   )
 }

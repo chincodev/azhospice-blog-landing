@@ -1,49 +1,39 @@
 import React from 'react'
-import styled from '@emotion/styled'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 
-
-const StyledImg = styled(Img)`
-  border-top-left-radius: 1px;
-  border-top-right-radius: 1px;
-`
-
-const StyledDiv = styled.div`
-  display: flex;
-  justify-content:space-between,
-  margin-top:4em
-`
-
-const Title = styled.h2`
-  font-size: 1.1em;
-  font-weight: 600;
-  text-transform: capitalize;
-  margin: 1rem 1rem 0.5rem 1rem;
-`
-
-const Date = styled.p`
-  margin: 0 1rem 0.5rem 1rem;
-  color: gray;
-  font-size: 10px;
-`
-
-const ReadingTime = styled.p`
-  margin: 0 1rem 1.5rem 1rem;
-  color: gray;
-  font-size: 10px;
-`
-
-const Excerpt = styled.p`
-  margin: 0 1rem 1rem 1rem;
-  line-height: 1.6;
-`
-
 const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
   return (
     <>
-      {heroImage && body && (
+    {
+    
+      heroImage && body && (
+        <div class="col-sm-6 col-xl-4 ">
+            <Link to={`${props.basePath}/${slug}/`}>
+                <div class="card post-card d-flex flex-column">
+                    <Img  class="card-img-top" fluid={heroImage.fluid} alt="And this isn't my nose. This is a false one." />
+                    <div class="card-body d-flex flex-column">
+                    <small class="d-block text-muted" style={{paddingBottom:"15px"}}>⏱️ {body.childMarkdownRemark.timeToRead} min read</small>
+                      <h4 class="card-title" style={{color:"#212121"}}>{title}</h4>
+                      <div class="text-muted text-preview" dangerouslySetInnerHTML={{__html: body.childMarkdownRemark.excerpt}}></div>
+                      <div class="d-flex align-items-center pt-5 mt-auto">
+                          <small class="d-block text-muted">📅 {publishDate}</small>
+                      </div>
+                    </div>
+                </div>
+            </Link>
+        </div>
+      )
+    }
+      
+    </>
+  )
+}
+
+export default Card
+
+{/* {heroImage && body && (
         <div featured={props.featured}>
           <Link to={`${props.basePath}/${slug}/`}>
             <StyledImg fluid={heroImage.fluid} backgroundColor={'#eeeeee'} />
@@ -61,9 +51,4 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
             </StyledDiv>
           </Link>
         </div>
-      )}
-    </>
-  )
-}
-
-export default Card
+      )} */}
