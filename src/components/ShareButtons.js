@@ -28,13 +28,13 @@ const ShareButtons = ({title,tags,slug}) => {
         <div >
             <small>Share in your social networks</small>
             <div>
-              <FacebookShareButton url={baseUrl+'/slug/'+slug}>
+              <FacebookShareButton url={baseUrl+'/blog/'+slug}>
                   <span className="fa share-btn fa-facebook mr-2"></span>
               </FacebookShareButton>
-              <TwitterShareButton url={baseUrl+'/slug/'+slug} title={title} via={'@a-zhospice'} hashtags={tags} >
+              <TwitterShareButton url={baseUrl+'/blog/'+slug} title={title} via={'@a-zhospice'} hashtags={tags} >
                   <span className="fa share-btn fa-twitter mr-2"></span> 
               </TwitterShareButton> 
-              <LinkedinShareButton url={baseUrl+'/slug/'+slug} title={title} >
+              <LinkedinShareButton url={baseUrl+'/blog/'+slug} title={title} >
                   <span className="fa share-btn fa-linkedin mr-2"></span>
               </LinkedinShareButton>
             </div>
