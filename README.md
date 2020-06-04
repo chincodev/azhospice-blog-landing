@@ -1,1 +1,1 @@
-- gatsby develop to test locally
+- gatsby develop to test locally.
