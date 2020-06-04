@@ -22,7 +22,7 @@ const ShareButtons = ({title,tags,slug}) => {
         `
       )
 
-    const baseUrl = site.siteMetadata.siteUr
+    const baseUrl = site.siteMetadata.siteUrl
 
     return (
         <div >
