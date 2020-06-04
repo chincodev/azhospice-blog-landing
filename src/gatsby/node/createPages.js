@@ -31,8 +31,8 @@
      itemsPerPage: config.siteMetadata.postsPerPage || 6,
      pathPrefix: basePath,
      context: {
-       basePath: 'https://hopeful-lumiere-96d9c6.netlify.app',
-       paginationPath: 'https://hopeful-lumiere-96d9c6.netlify.app',
+       basePath: 'https://hopeful-lumiere-96d9c6.netlify.app/blog',
+       paginationPath: 'https://hopeful-lumiere-96d9c6.netlify.app/blog',
      },
    })
    // Create "tag" page and paginate
