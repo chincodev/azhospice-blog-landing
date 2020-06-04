@@ -4,7 +4,7 @@
  const { paginate } = require(`gatsby-awesome-pagination`)
  module.exports = async ({ graphql, actions }) => {
    const { createPage } = actions
-   const basePath = '/blog'
+   const basePath = config.siteMetadata.basePath
    // Create a page for each "post"
    const postsQuery = await graphql(query.data.posts)
    const posts = postsQuery.data.allContentfulPost.edges
@@ -31,8 +31,8 @@
      itemsPerPage: config.siteMetadata.postsPerPage || 6,
      pathPrefix: basePath,
      context: {
-       basePath: 'https://hopeful-lumiere-96d9c6.netlify.app/blog',
-       paginationPath: 'https://hopeful-lumiere-96d9c6.netlify.app/blog',
+       basePath: basePath+'/blog',
+       paginationPath: basePath+'/blog',
      },
    })
    // Create "tag" page and paginate

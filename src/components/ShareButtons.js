@@ -4,7 +4,7 @@ import {
 	LinkedinShareButton,
 	TwitterShareButton,
 } from 'react-share';
-import {useStaticQuery} from 'gatsby'
+import { useStaticQuery } from 'gatsby'
 
 const ShareButtons = ({title,tags,slug}) => {
     const { site } = useStaticQuery(
