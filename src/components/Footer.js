@@ -32,7 +32,7 @@ const Footer = () => (
 			        <div className="logo2">
 						<h2>
 							<a href="index.html">
-							    <img src="../../images/ACHC_20Gold.webp" alt="ACHC image" aria-label="ACHC image" className="img-fluid" />
+							    <img src="../../images/ACHC_20Gold.jpg" alt="ACHC image" aria-label="ACHC image" className="img-fluid" />
                             </a>
 						</h2>
 					</div>

@@ -246,7 +246,7 @@ a.move-top {
 
     height: 34px;
 
-    background: url(../images/move-top.webp) no-repeat;
+    background: url(../images/move-top.jpg) no-repeat;
 
     display: inline-block;
 
@@ -1632,7 +1632,7 @@ section p{
 }
 .banner-index{
 	min-height: 680px;
-    background: url(../images/3a.webp) no-repeat top;
+    background: url(../images/3a.jpg) no-repeat top;
 
     background-size: cover;
 
@@ -1647,7 +1647,7 @@ section p{
 }
 .banner-our-team {
 	min-height: 500px;
-    background: url(../images/xh6AHhbem5.webp) no-repeat center;
+    background: url(../images/xh6AHhbem5.jpg) no-repeat center;
 
     background-size: cover;
 
@@ -1663,7 +1663,7 @@ section p{
 
 .banner-top1 {
 
-    /* background: url(../images/1.webp) no-repeat center; */
+    /* background: url(../images/1.jpg) no-repeat center; */
 
     background-size: cover;
 
@@ -1681,7 +1681,7 @@ section p{
 
 .banner-top2 {
 
-    background: url(../images/2.webp) no-repeat bottom;
+    background: url(../images/2.jpg) no-repeat bottom;
 
     background-size: cover;
 
@@ -1699,7 +1699,7 @@ section p{
 
 .banner-top3 {
 
-    /* background: url(../images/3.webp) no-repeat center; */
+    /* background: url(../images/3.jpg) no-repeat center; */
 
     background-size: cover;
 
@@ -2014,7 +2014,7 @@ a.blog-btn:hover {
 
 /* section.loan_w3ls {
 
-    background: url(../images/4.webp) center no-repeat fixed;
+    background: url(../images/4.jpg) center no-repeat fixed;
 
     background-size: cover;
 
@@ -2130,7 +2130,7 @@ button.btn_apt:hover {
 
 [type="date"] {
 
-    background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.webp) 97% 50% no-repeat;
+    background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.jpg) 97% 50% no-repeat;
 
 	padding-right: 0!important;
 
@@ -2224,7 +2224,7 @@ a.butn-w3pvt {
 
 .services-w3ls {
 
-    background: url(../images/bg2.webp) no-repeat center fixed;
+    background: url(../images/bg2.jpg) no-repeat center fixed;
 
     background-size: cover;
 
@@ -2484,7 +2484,7 @@ a.butn-w3pvt {
 
 footer {
 
-    background: url(../images/bg3.webp) no-repeat center;
+    background: url(../images/bg3.jpg) no-repeat center;
 
     background-size: cover;
 
@@ -2701,7 +2701,7 @@ ul.list-part li {
 .main-banner-21 {
     margin: 0 auto;
     max-width: 1920px;
-    background: url(../images/XZ5dD1BhpV.webp) no-repeat top;
+    background: url(../images/XZ5dD1BhpV.jpg) no-repeat top;
 
     background-size: cover;
 
@@ -2720,7 +2720,7 @@ ul.list-part li {
 
     margin: 0 auto;
     max-width: 1920px;
-    background: url(../images/qu1gIgHFSQ.webp) no-repeat top;
+    background: url(../images/qu1gIgHFSQ.jpg) no-repeat top;
 
     background-size: cover;
 
@@ -2792,7 +2792,7 @@ div.container.py-xl-5.py-lg-3 > div{
     margin: 0 auto;
     max-width: 1920px;
 
-    background: url(../images/blog-banner.webp) no-repeat top;
+    background: url(../images/blog-banner.jpg) no-repeat top;
 
     background-size: cover;
 
@@ -2815,7 +2815,7 @@ div.container.py-xl-5.py-lg-3 > div{
 .area-cover {
     margin: 0 auto;
     max-width: 1920px;
-    background: url(../images/2.webp) no-repeat top;
+    background: url(../images/2.jpg) no-repeat top;
 
     background-size: cover;
 
@@ -2833,7 +2833,7 @@ div.container.py-xl-5.py-lg-3 > div{
 .contact {
     margin: 0 auto;
     max-width: 1920px;
-    background: url(../images/how-hospice-works.webp) no-repeat top;
+    background: url(../images/how-hospice-works.jpg) no-repeat top;
 
     background-size: cover;
 	background-position: center;
@@ -2852,7 +2852,7 @@ div.container.py-xl-5.py-lg-3 > div{
     max-width: 1920px;
 margin: 0 auto;
   max-width: 1920px;
-    background: url(../images/services-provide.webp) no-repeat top;
+    background: url(../images/services-provide.jpg) no-repeat top;
 
     background-size: cover;
 	background-position: center;
@@ -2870,7 +2870,7 @@ margin: 0 auto;
 .about_banner { margin: 0 auto;
     max-width: 1920px;
 
-    background: url(../images/about.webp) no-repeat top;
+    background: url(../images/about.jpg) no-repeat top;
 
     background-size: cover;
 
@@ -2888,7 +2888,7 @@ margin: 0 auto;
 .referalls {
     margin: 0 auto;
     max-width: 1920px;
-    background: url(../images/how-hospice-helps-families.webp) no-repeat top;
+    background: url(../images/how-hospice-helps-families.jpg) no-repeat top;
 
     background-size: cover;
 	background-position: center;
@@ -2907,7 +2907,7 @@ margin: 0 auto;
 .services-provide {
     margin: 0 auto;
     max-width: 1920px;
-    background: url(../images/services-provide.webp) no-repeat top;
+    background: url(../images/services-provide.jpg) no-repeat top;
 
     background-size: cover;
 
@@ -2926,7 +2926,7 @@ margin: 0 auto;
 .our-team-banner { margin: 0 auto;
     max-width: 1920px;
 
-    background: url(../images/Health-Care-Team.webp) no-repeat center;
+    background: url(../images/Health-Care-Team.jpg) no-repeat center;
 
     background-size: cover;
 
@@ -2943,7 +2943,7 @@ margin: 0 auto;
 }
 .main-banner-2 {
 
-    /* background: url(../images/1.webp) no-repeat top; */
+    /* background: url(../images/1.jpg) no-repeat top; */
 
     background-size: cover;
 
@@ -4587,7 +4587,7 @@ li.banner-our-team .banner-info_agile_w3ls.text-center.mx-auto {
 }
 .banner-our-team {
     min-height: 400px;
-    background: url(../images/xh6AHhbem5.webp) no-repeat top;
+    background: url(../images/xh6AHhbem5.jpg) no-repeat top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

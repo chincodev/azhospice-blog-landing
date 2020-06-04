@@ -18,7 +18,7 @@ const ServicesWeProvide = () => {
 				            <div className="col-lg-4 col-md-6">
 					            <div className="card border-0 med-blog">
 						            <div className="card-header p-0">
-							            <img className="card-img-bottom" src="../images/Health-Care-Team.webp" alt="image" />
+							            <img className="card-img-bottom" src="../images/Health-Care-Team.jpg" alt="image" />
 						            </div>
 						            <div className="card-body border border-top-0">
 							            <div className="mb-3">
@@ -31,7 +31,7 @@ const ServicesWeProvide = () => {
 				            <div className="col-lg-4 col-md-6 mt-md-0 mt-5">
 					            <div className="card border-0 med-blog">
 						            <div className="card-header p-0">
-							            <img className="card-img-bottom" src="../images/2.webp" alt="image" />
+							            <img className="card-img-bottom" src="../images/2.jpg" alt="image" />
 						            </div>
 						            <div className="card-body border border-top-0">
 							            <div className="mb-3">
@@ -46,7 +46,7 @@ const ServicesWeProvide = () => {
 				            <div className="col-lg-4 col-md-6 mt-lg-0 mt-5">
 					            <div className="card border-0 med-blog">
 						            <div className="card-header p-0">
-							            <img className="card-img-bottom" src="../images/ybRmRFe5ux.webp" alt="image" />
+							            <img className="card-img-bottom" src="../images/ybRmRFe5ux.jpg" alt="image" />
 						            </div>
 						            <div className="card-body border border-top-0">
 							            <div className="mb-3">
@@ -61,7 +61,7 @@ const ServicesWeProvide = () => {
 				            <div className="col-lg-4 col-md-6">
 					            <div className="card border-0 med-blog">
 						            <div className="card-header p-0">
-							            <img className="card-img-bottom" src="../images/4PcA5YvDoT.webp" alt="image" />
+							            <img className="card-img-bottom" src="../images/4PcA5YvDoT.jpg" alt="image" />
 						            </div>
 						            <div className="card-body border border-top-0">
 							            <div className="mb-3">
@@ -74,7 +74,7 @@ const ServicesWeProvide = () => {
 				            <div className="col-lg-4 col-md-6 mt-md-0 mt-5">
 					            <div className="card border-0 med-blog">
 						            <div className="card-header p-0">
-							            <img className="card-img-bottom" src="../images/GwAujeYV2B.webp" alt="image" />
+							            <img className="card-img-bottom" src="../images/GwAujeYV2B.jpg" alt="image" />
 						            </div>
 						            <div className="card-body border border-top-0">
 							            <div className="mb-3">
@@ -87,7 +87,7 @@ const ServicesWeProvide = () => {
 				            <div className="col-lg-4 col-md-6 mt-lg-0 mt-5">
 					            <div className="card border-0 med-blog">
 						            <div className="card-header p-0">
-							            <img className="card-img-bottom" src="../images/YOkopeHZha.webp" alt="image" />
+							            <img className="card-img-bottom" src="../images/YOkopeHZha.jpg" alt="image" />
 						            </div>
 						            <div className="card-body border border-top-0">
 							            <div className="mb-3">
