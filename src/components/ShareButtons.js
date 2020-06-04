@@ -40,8 +40,8 @@ const ShareButtons = ({title,tags,slug}) => {
                   <span className="fa share-btn fa-facebook mr-2"></span>
               </FacebookShareButton>
               {console.log(tagies)}
-              <TwitterShareButton style={{paddingLeft: "1rem !important"}} url={baseUrl+'/blog/'+slug} title={title} via={'a-zhospice'} hashtags={tagies} >
-                  <span className="fa share-btn fa-twitter mr-2"></span> 
+              <TwitterShareButton  url={baseUrl+'/blog/'+slug} title={title} via={'a-zhospice'} hashtags={tagies} >
+                  <span style={{paddingLeft: "1rem !important", paddingRight: "1rem !important"}} className="fa share-btn fa-twitter mr-2"></span> 
               </TwitterShareButton> 
               <LinkedinShareButton url={baseUrl+'/blog/'+slug} title={title} >
                   <span className="fa share-btn fa-linkedin mr-2"></span>
