@@ -876,8 +876,26 @@ section p{
     outline: none;
 }
 
+.post h1, .post h2 {
 
 
+position: relative;
+margin-bottom: .5em;
+border-bottom: 1px solid gainsboro;
+}
+@media all and (min-width : 737px){
+    .post{
+        
+    width: 60%;
+
+    }
+.post > div:nth-child(3){
+    padding: 2em !important;
+    margin-top: 2em;
+    background-color: #f2f2f2;
+    border: 1px solid #dbdbdb;
+}
+}
 
 @media all and (max-width : 736px) {
     nav ul ul {
