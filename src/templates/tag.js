@@ -38,15 +38,15 @@ const TagTemplate = ({ data, pageContext }) => {
           description={`Posts Tagged: ${startCase(title)}`}
           image={ogImage}
         />
-        <div class="no-wh-bg">
-          <div style={{ backgroundImage:`url("${posts[0].heroImage.ogimg.src}")`, backgroundRepeat: "no-repeat", backgroundPosition: "center",    backgroundSize: "cover"}}>
+        
+          <div style={{margin: "0 auto",maxWidth: "1920px",minHeight: "300px", backgroundImage:`url("${posts[0].heroImage.ogimg.src}")`, backgroundRepeat: "no-repeat", backgroundPosition: "center",    backgroundSize: "cover"}}>
             <div className="blurry" style={{minHeight:"300px"}}>
               <div  className="container py-xl-5 py-lg-3 banner-container">
                 <h3 className="text-wh font-weight-bold banner-title">{numberOfPosts} Posts Tagged: &ldquo;{title}&rdquo;</h3>
             </div>
           </div>
         </div>
-      </div>
+  
       <div className="container py-xl-5 py-lg-3">
       <CardList>
       {posts.slice(skip, limit * humanPageNumber).map(post => (
