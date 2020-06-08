@@ -9,7 +9,7 @@ const IndexPage = () => {
     <Layout>
       <SEO
         title="Home"
-        description="Your health is important for us at A-zhospice, check all the services that we can offer you!"
+        description="Your health is important for us at A-Z Hospice Inc., caring from the Heart!"
       />
       <Container>
         <div className="banner_w3lspvt" style={{margin: "0 auto",maxWidth: "1920px"}}>

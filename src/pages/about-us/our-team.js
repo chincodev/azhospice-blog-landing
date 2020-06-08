@@ -6,7 +6,7 @@ import SEO from '../../components/SEO'
 const ServicesWeProvide = () => {
     return (
         <Layout>
-            <SEO title="Our team" description="Get involved with our team!" />
+            <SEO title="Our team" description="Discover the amazing team that work at A-Z Hospice Inc." />
             <Container>
 				<div className="our-team-banner"></div>
                 <section className="blog_w3ls py-5 newwy" id="why">

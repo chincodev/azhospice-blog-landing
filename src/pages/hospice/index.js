@@ -6,7 +6,7 @@ import SEO from '../../components/SEO'
 const Hospice = () => {
     return (
         <Layout>
-            <SEO title="Hospice" description="All about the hospice services that we provide at A-zhospice" />
+            <SEO title="Hospice" description="All about the hospice services that we provide at A-Z Hospice Inc." />
             <Container>
 				<div class="no-wh-bg">
                 	<div className="hospice_banner" />

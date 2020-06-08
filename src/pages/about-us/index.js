@@ -6,7 +6,7 @@ import SEO from '../../components/SEO'
 const About = () => {
     return (
         <Layout>
-            <SEO title="About us" description="We invite you to find out more about our Hospice, our staff, and the various services that we provide." />
+            <SEO title="About us" description="We invite you to find out more about our Hospice, our staff, and the multiple services that we provide." />
             <Container>
                 <div class="no-wh-bg">
                     <div className="about_banner">
