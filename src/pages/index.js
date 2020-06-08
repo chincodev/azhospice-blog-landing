@@ -22,8 +22,12 @@ const IndexPage = () => {
                 <div className="container">
                   <div className="banner-info_agile_w3ls text-center mx-auto">
                     <h3 className="text-wh font-weight-bold">
-                      WELCOME TO A-Z HOSPICE INC.
+                      WELCOME TO 
                     </h3>
+                    <h3 className="text-wh font-weight-bold">
+                      A-Z HOSPICE INC.
+                    </h3>
+
                     <h4 className="text-wh font-weight-bold">
                       Your Health Matters
                     </h4>

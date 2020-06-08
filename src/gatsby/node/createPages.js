@@ -31,8 +31,8 @@
      itemsPerPage: config.siteMetadata.postsPerPage || 6,
      pathPrefix: basePath,
      context: {
-       basePath: 'https://www.a-zhospice.com/blog',
-       paginationPath: 'https://www.a-zhospice.com/blog',
+       basePath: 'https://a-zhospice.com/blog',
+       paginationPath: 'https://a-zhospice.com/blog',
      },
    })
    // Create "tag" page and paginate

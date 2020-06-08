@@ -33,7 +33,7 @@ return (
                   <li><strong>Service</strong> refers to the Website.</li>
           <li><strong>Terms and Conditions</strong> (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement is maintained by the <a href="https://www.freeprivacypolicy.com/free-terms-conditions-generator/">Free Terms and Conditions Generator</a>.</li>
     <li><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</li>
-  <li><strong>Website</strong> refers to a-zhospice, accessible from https://www.a-zhospice.com</li>    <li><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
+  <li><strong>Website</strong> refers to a-zhospice, accessible from https://a-zhospice.com</li>    <li><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
 </ul>
 
 <h1>Acknowledgement</h1>

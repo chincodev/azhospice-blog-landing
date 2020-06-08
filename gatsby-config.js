@@ -20,7 +20,7 @@ module.exports = {
     title: 'a-zhospice',
     description:
       'your health is our number one priority.',
-    siteUrl: 'https://www.a-zhospice.com',
+    siteUrl: 'https://a-zhospice.com',
     image: '/images/logo.jpg',
     menuLinks: [
       {
