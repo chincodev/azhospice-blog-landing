@@ -4319,7 +4319,20 @@ padding-top: 3em;
 
 }
 
+#slider1 > ul > li.banner-index > div > div > h4{
+    
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
 
+}
+
+#slider1 > ul > li.banner-index > div > div
+{
+    padding-top: 5em !important;
+}
+#slider1 > ul > li.banner-index > div > div > p{
+    font-weight: 600!important;
+}
 
 @media(max-width: 320px) {
 
