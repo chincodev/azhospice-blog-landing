@@ -17,7 +17,7 @@ try {
 
 module.exports = {
   siteMetadata: {
-    title: 'a-zhospice',
+    title: 'A-Z Hospice Inc.',
     description:
       'your health is our number one priority.',
     siteUrl: 'https://a-zhospice.com',
