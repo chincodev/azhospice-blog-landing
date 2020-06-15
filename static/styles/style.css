@@ -1648,7 +1648,7 @@ border-bottom: 1px solid gainsboro;
     min-height: 680px;
 
 }
-.banner-index{
+.banner-top2{
 	min-height: 680px;
     background: url(../images/3adarker.jpg) no-repeat top;
 
@@ -1697,9 +1697,9 @@ border-bottom: 1px solid gainsboro;
 
 
 
-.banner-top2 {
+.banner-index {
 
-    background: url(../images/a4.jpg) no-repeat top;
+    background: url(../images/a4.jpg) no-repeat 90%;
 
     background-size: cover;
 
