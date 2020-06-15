@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 import Nav from './Nav'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import Copyright from '../components/Copyright'
+import Copyright from '../components/Copyright' 
 
 // const Footer = React.lazy(() => import('./Footer'));
 // const Header = React.lazy(() => import('./Header'));
