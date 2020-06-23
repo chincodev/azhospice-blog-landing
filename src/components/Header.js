@@ -33,12 +33,12 @@ export default function Header (){
                                             </a>
                                         </li>
                                         <li className="">
-                                            <a aria-label="facebook" rel="noreferrer" rel="noreferrer" href="https://www.facebook.com/AZHOSPICEINC/" target="_self">
+                                            <a aria-label="facebook" rel="noreferrer" rel="noreferrer" href="https://www.facebook.com/AZHOSPICEINC" target="_self">
                                                 <span className="fa fa-facebook"></span> 
                                             </a>
                                         </li>
                                         <li className="mx-3">
-                                            <a aria-label="instagram" rel="noreferrer" href="https://www.instagram.com/a_zhospiceinc/" target="_self">
+                                            <a aria-label="instagram" rel="noreferrer" href="https://www.instagram.com/a_zhospiceinc" target="_self">
                                                 <span className="fa fa-instagram"></span>
                                             </a>
                                         </li>
