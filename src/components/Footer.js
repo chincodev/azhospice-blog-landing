@@ -12,7 +12,7 @@ const Footer = () => (
                             </p>
 						</li>
 						<li className="my-3">
-							<p className="text-li"><span className="fa fa-phone mr-2"></span>(805) 380-2550</p>
+							<p className="text-li"><span className="fa fa-phone mr-2"></span><a href="tel:805-380-2550">805-380-2550</a></p>
 						</li>
 						<li className="my-3">
 							<a href="mailto:info@a-zhospice.com" className="text-wh"><span className="fa fa-envelope-open mr-2"></span>info@a-zhospice.com</a>
@@ -31,17 +31,17 @@ const Footer = () => (
 				<div className="col-lg-5 w3l-footer mt-lg-0 mt-5">
 			        <div className="logo2">
 						<h2>
-							<a href="index.html">
+							
 							    <img src="../../images/ACHC_20Gold.png" alt="ACHC image" aria-label="ACHC image" className="img-fluid" />
-                            </a>
+                           
 						</h2>
 					</div>
 					<h3 className="mb-sm-4 mb-3 text-wh">Social Networks</h3>
 					<ul id="social-li" className="list-unstyled list-part text-wh pt-lg-3">
-						<li><a aria-label="Linkedin" href="https://www.linkedin.com/company/53872160 "><span className="fa fa-linkedin" aria-hidden="true"></span></a></li>
-						<li className="mx-4"><a aria-label="Facebook" href="https://www.facebook.com/AZHOSPICEINC/ "><span className="fa fa-facebook" aria-hidden="true"></span></a></li>
-						<li><a href="https://www.instagram.com/a_zhospiceinc/ " aria-label="Instagram"><span className="fa fa-instagram" aria-hidden="true"></span></a></li>
-						<li className="mx-4"><a href="https://twitter.com/hospice_z" aria-label="Twitter"><span className="fa fa-twitter" aria-hidden="true"></span></a></li>
+						<li><a aria-label="Linkedin" href="https://www.linkedin.com/company/53872160 " target="_self"><span className="fa fa-linkedin" aria-hidden="true"></span></a></li>
+						<li className="mx-4"><a aria-label="Facebook" href="https://www.facebook.com/AZHOSPICEINC/ " target="_self"><span className="fa fa-facebook" aria-hidden="true"></span></a></li>
+						<li><a href="https://www.instagram.com/a_zhospiceinc/ " aria-label="Instagram" target="_self"><span className="fa fa-instagram" aria-hidden="true"></span></a></li>
+						<li className="mx-4"><a href="https://twitter.com/hospice_z" aria-label="Twitter" target="_self"><span className="fa fa-twitter" aria-hidden="true"></span></a></li>
 					</ul>
 				</div>
 			</div>

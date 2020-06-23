@@ -821,6 +821,35 @@ padding-top: 1em;
     background: #f6f6f6;
     border: 1px solid #d6d6d6;
 }
+.banner-info_agile_w3ls{
+    padding-bottom: 30px !important;
+}
+
+
+
+.slidesDot li.slick-active div{
+    background: #d84315;;
+}
+
+.slidesDot li div{
+width: 15px;
+height: 15px;
+cursor: pointer;
+border-radius: 50%;
+margin: 0 5px;
+padding: 5px;
+background: white;
+transition: 0.5s all;
+-webkit-transition: 0.5s all;
+}
+.slidesDot{
+display: flex !important;
+align-items: center;
+justify-content: center;
+position: absolute;
+margin-top: -20px;
+width: 100%;
+}
 /* Media Queries
 
 --------------------------------------------- */
@@ -1648,6 +1677,30 @@ border-bottom: 1px solid gainsboro;
     min-height: 680px;
 
 }
+
+#slideOne{
+    background: url(../images/a4.jpg) no-repeat top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.sliderText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    
+    min-height: 650px;
+}
+.banner-top1{
+    background: url(../images/a4.jpg) no-repeat top;
+}
+
 .banner-index{
 	min-height: 680px;
     
@@ -4079,10 +4132,10 @@ padding-top: 3em;
     }
 
 
-
     .banner-info_agile_w3ls {
 
-        padding-top: 8em;
+        padding-top: 6em;
+        padding-bottom: 2em;
 
     }
 

@@ -17,6 +17,8 @@ import "../../static/styles/css_slider.css"
 import "../../static/styles/font-awesome.min.css"
 import "../../static/styles/single.css"
 import "../../static/styles/style.css"
+import '../../static/styles/slick-theme.min.css';
+import '../../static/styles/slick.min.css';
 
 
 

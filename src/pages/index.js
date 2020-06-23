@@ -3,8 +3,27 @@ import Layout from '../components/Layout'
 import Container from '../components/Container'
 import SEO from '../components/SEO'
 import { Link } from "gatsby"
+import Slider from "react-slick";
 
 const IndexPage = () => {
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    dotsClass: "slidesDot",
+    customPaging: function(i) {
+      return (
+        <div className="slidesDotNutton"></div>
+      );
+    }
+  };
+
   return (
     <Layout>
       <SEO
@@ -17,91 +36,84 @@ const IndexPage = () => {
             <input type="radio" name="slides" defaultChecked={true} id="slides_1" />
             <input type="radio" name="slides" id="slides_2" />
             <input type="radio" name="slides" id="slides_3" />
-            <ul className="banner_slide_bg">
-              <li className="banner-index">
-                <div className="container">
-                  <div className="banner-info_agile_w3ls text-center mx-auto">
-                    <h3 className="text-wh font-weight-bold">
-                      WELCOME TO 
-                    </h3>
-                    <h3 className="text-wh font-weight-bold">
-                      A-Z HOSPICE INC.
-                    </h3>
-
-                    <h4 className="text-wh font-weight-bold">
-                      Your Health Matters
-                    </h4>
-                    <p className="text-wh font-weight-normal">
-                      A-Z Hospice Inc. has been serving Los Angeles and Ventura
-                      county since 2017. We offer our patients quality health
-                      care in a family-friendly environment. At A-Z Hospice
-                      Inc., your health is our number one priority. We invite
-                      you to find out more about our Hospice, our staff, and the
-                      various services that we provide.
-                    </p>
-                    <Link to="/contact" className="btn button-w3ls mt-5">
-                      Contact Us Now
-                    </Link>
-                  </div>
-                </div>
-              </li>
-              <li className="banner-top2">
-                <div className="container">
-                  <div className="banner-info_agile_w3ls text-center mx-auto">
-                    <h3 className="text-wh font-weight-bold">
-                      WELCOME TO A-Z HOSPICE INC.
-                    </h3>
-                    <h4 className="text-wh font-weight-bold">
-                      Your Health Matters
-                    </h4>
-                    <p className="text-wh font-weight-normal">
-                      A-Z Hospice Inc. has been serving Los Angeles and Ventura
-                      county since 2017. We offer our patients quality health
-                      care in a family-friendly environment. At A-Z Hospice
-                      Inc., your health is our number one priority. We invite
-                      you to find out more about our Hospice, our staff, and the
-                      various services that we provide.
-                    </p>
-                    <Link to="/contact" className="btn button-w3ls mt-5">
-                      Contact Us Now
-                    </Link>
-                  </div>
-                </div>
-              </li>
-              <li className="banner-top3">
-                <div className="container">
-                  <div className="banner-info_agile_w3ls text-center mx-auto">
-                    <h3 className="text-wh font-weight-bold">
-                      WELCOME TO A-Z HOSPICE INC.
-                    </h3>
-                    <h4 className="text-wh font-weight-bold">
-                      Your Health Matters
-                    </h4>
-                    <p className="text-wh font-weight-normal">
-                      A-Z Hospice Inc. has been serving Los Angeles and Ventura
-                      county since 2017. We offer our patients quality health
-                      care in a family-friendly environment. At A-Z Hospice
-                      Inc., your health is our number one priority. We invite
-                      you to find out more about our Hospice, our staff, and the
-                      various services that we provide.
-                    </p>
-                    <Link to="/contact" className="btn button-w3ls mt-5">
-                      Contact Us Now
-                    </Link>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <div className="navigation">
               <div>
-                <label htmlFor="slides_1"></label>
-                <label htmlFor="slides_2"></label>
-                <label htmlFor="slides_3"></label>
+                <Slider {...settings}>
+                    <div className="banner-top1" >
+                      <div className="container">
+                        <div className="banner-info_agile_w3ls text-center mx-auto">
+                          <h3 className="text-wh font-weight-bold">
+                            WELCOME TO 
+                          </h3>
+                          <h3 className="text-wh font-weight-bold">
+                            A-Z HOSPICE INC.
+                          </h3>
+                          <h4 className="text-wh font-weight-bold">
+                            Your Health Matters
+                          </h4>
+                          <p className="text-wh font-weight-normal">
+                            A-Z Hospice Inc. has been serving Los Angeles and Ventura
+                            county since 2017. We offer our patients quality health
+                            care in a family-friendly environment. At A-Z Hospice
+                            Inc., your health is our number one priority. We invite
+                            you to find out more about our Hospice, our staff, and the
+                            various services that we provide.
+                          </p>
+                          <Link to="/contact" className="btn button-w3ls mt-5">
+                            Contact Us Now
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  <div className="banner-top2" >
+                    <div className="container">
+                      <div className="banner-info_agile_w3ls text-center mx-auto">
+                        <h3 className="text-wh font-weight-bold">
+                          WELCOME TO A-Z HOSPICE INC.
+                        </h3>
+                        <h4 className="text-wh font-weight-bold">
+                          Your Health Matters
+                        </h4>
+                        <p className="text-wh font-weight-normal">
+                          A-Z Hospice Inc. has been serving Los Angeles and Ventura
+                          county since 2017. We offer our patients quality health
+                          care in a family-friendly environment. At A-Z Hospice
+                          Inc., your health is our number one priority. We invite
+                          you to find out more about our Hospice, our staff, and the
+                          various services that we provide.
+                        </p>
+                        <Link to="/contact" className="btn button-w3ls mt-5">
+                          Contact Us Now
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="banner-top3" >
+                    <div className="container">
+                      <div className="banner-info_agile_w3ls text-center mx-auto">
+                        <h3 className="text-wh font-weight-bold">
+                          WELCOME TO A-Z HOSPICE INC.
+                        </h3>
+                        <h4 className="text-wh font-weight-bold">
+                          Your Health Matters
+                        </h4>
+                        <p className="text-wh font-weight-normal">
+                          A-Z Hospice Inc. has been serving Los Angeles and Ventura
+                          county since 2017. We offer our patients quality health
+                          care in a family-friendly environment. At A-Z Hospice
+                          Inc., your health is our number one priority. We invite
+                          you to find out more about our Hospice, our staff, and the
+                          various services that we provide.
+                        </p>
+                        <Link to="/contact" className="btn button-w3ls mt-5">
+                          Contact Us Now
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </Slider>
               </div>
-            </div>
           </div>
         </div>
-
         <div className="section-2">
           <div className="container">
             <div className="row slide">
