@@ -44,7 +44,7 @@ export default function Header (){
                                         </li>
                                         <li>
                                             <a aria-label="twitter" rel="noreferrer" href="https://twitter.com/hospice_z" target="_self">
-                                                <span className="fa fa-twitter"></span>
+                                                <span className="fa fa-twitter"></span> 
                                             </a>
                                         </li>
                                         
