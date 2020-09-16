@@ -42,7 +42,7 @@ const ShareButtons = ({title,tags,slug}) => {
                   <span style={{paddingLeft: "1rem !important"}} className="fa share-btn fa-facebook"></span>
               </FacebookShareButton>
 
-              <TwitterShareButton  url={baseUrl+'/blog/'+slug} title={title} via={'a-zhospice'} hashtags={tagies.length > 0 ? taggies : ''} >
+              <TwitterShareButton  url={baseUrl+'/blog/'+slug} title={title} via={'a-zhospice'} hashtags={tagies} >
                   <span style={{paddingLeft: "1rem !important"}} className="fa share-btn fa-twitter ml-4 mr-4"></span> 
               </TwitterShareButton> 
 
