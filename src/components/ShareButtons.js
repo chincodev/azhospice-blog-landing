@@ -21,18 +21,18 @@ const ShareButtons = ({title,tags,slug}) => {
           }
         `
       )
-    const tagiesInitialState = [];     
-    const [tagies, setTagies] = useState(tagiesInitialState)
+    // const tagiesInitialState = [];     
+    // const [tagies, setTagies] = useState(tagiesInitialState)
 
     const baseUrl = site.siteMetadata.siteUrl
 
-    useEffect(() => {
-      var _tags=[]; 
-      tags.map(tag => {
-        _tags=[..._tags, tag.title];
-      })
-      setTagies(_tags)
-    }, [])
+    // useEffect(() => {
+    //   var _tags=[]; 
+    //   tags.map(tag => {
+    //     _tags=[..._tags, tag.title];
+    //   })
+    //   setTagies(_tags)
+    // }, [])
 
     return (
         <div >
@@ -41,9 +41,9 @@ const ShareButtons = ({title,tags,slug}) => {
               <FacebookShareButton url={baseUrl+'/blog/'+slug}>
                   <span className="fa share-btn fa-facebook"></span>
               </FacebookShareButton>
-              <TwitterShareButton  url={baseUrl+'/blog/'+slug} title={title} via={'a-zhospice'} hashtags={tagies} >
+              {/* <TwitterShareButton  url={baseUrl+'/blog/'+slug} title={title} via={'a-zhospice'} hashtags={tagies} >
                   <span style={{paddingLeft: "1rem !important", paddingRight: "1rem !important"}} className="fa share-btn fa-twitter ml-4 mr-4"></span> 
-              </TwitterShareButton> 
+              </TwitterShareButton>  */}
               <LinkedinShareButton url={baseUrl+'/blog/'+slug} title={title} >
                   <span className="fa share-btn fa-linkedin"></span>
               </LinkedinShareButton>
