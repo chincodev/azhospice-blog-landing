@@ -269,8 +269,8 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       Pain management its one of the primary goals of hospice
-                      service...{' '}Read more about 
-                      <Link to="/about-us/services-we-provide">{' Our Team'}</Link>
+                      service...
+                      <Link to="/about-us/services-we-provide">{' Read more about our team'}</Link>
                     </p>
                   </div>
                 </div>
@@ -283,8 +283,8 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       At A-Z Hospice our professional Staff are board approved
-                      Nurses...{' '} Read more about 
-                      <Link to="/about-us/services-we-provide">{' Our Team'}</Link>
+                      Nurses...{' '}
+                      <Link to="/about-us/services-we-provide">{' Read more about our team'}</Link>
                     </p>
                   </div>
                 </div>
@@ -299,8 +299,8 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       Continuous Home Care is typically used during times of
-                      crisis...{' '} Read more about  
-                      <Link to="/about-us/services-we-provide">{' Our Team'}</Link>
+                      crisis...{' '}
+                      <Link to="/about-us/services-we-provide">{' Read more about our team'}</Link>
                     </p>
                   </div>
                 </div>
@@ -313,8 +313,8 @@ const IndexPage = () => {
 
                     <p className="my-3">
                       At A-Z Hospice, Our On-Call Skilled nurses available 24
-                      hours a day...{' '} Read more about
-                      <Link to="/about-us/services-we-provide">{' Our Team'}</Link>
+                      hours a day...{' '}
+                      <Link to="/about-us/services-we-provide">{' Read more about our team'}</Link>
                     </p>
                   </div>
                 </div>
