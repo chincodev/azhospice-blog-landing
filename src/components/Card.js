@@ -10,7 +10,7 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
     
       heroImage && body && (
         <article class="col-sm-6 col-xl-4 d-flex">
-            <Link to={`${props.basePath}/${slug}/`}>
+            <Link to={`${props.basePath}/${slug}/`} className='card post-card flex-column flex-fill' >
                 <div class="card post-card flex-column flex-fill">
                     <Img  class="card-img-top" fluid={heroImage.fluid} alt="And this isn't my nose. This is a false one." />
                     <div class="card-body flex-column">
