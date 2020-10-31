@@ -323,7 +323,7 @@ const IndexPage = () => {
             </div>
           </div>
         </section>
-        <LastestPosts />
+        {/* <LastestPosts /> */}
       </Container>
     </Layout>
   )
