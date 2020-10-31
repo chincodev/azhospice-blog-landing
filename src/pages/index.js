@@ -4,6 +4,7 @@ import Container from '../components/Container'
 import SEO from '../components/SEO'
 import { Link } from "gatsby"
 import Slider from "react-slick";
+import LastestPosts from "../templates/LastestPosts"
 
 const IndexPage = () => {
 
@@ -322,6 +323,7 @@ const IndexPage = () => {
             </div>
           </div>
         </section>
+        <LastestPosts />
       </Container>
     </Layout>
   )
