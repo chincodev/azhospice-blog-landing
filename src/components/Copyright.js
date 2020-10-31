@@ -8,8 +8,8 @@ const Copyright = () => (
 	        <div class="container py-3">
 	    		<div class="row">
 	    			<div class="col-lg-12 w3ls_footer_grid1_left text-lg-center text-center">
-						<Link to="/legal/privacy">Privacy policy</Link>&nbsp; | &nbsp;
-						<Link to="/legal/terms">Terms of condition</Link>
+						<Link to="/legal/privacy" className='foot-links' >Privacy policy</Link>&nbsp; | &nbsp;
+						<Link to="/legal/terms" className='foot-links' >Terms of condition</Link>
 	    				<p>&copy; 2020 A-Z Hospice Inc.</p>
 	    			</div>
 	    		</div>

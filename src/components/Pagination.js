@@ -91,7 +91,7 @@ const Pagination = props => {
             >
               {Array.from({ length: props.context.numberOfPages }, (_, i) => (
                 <option value={`${i === 0 ? `` : i + 1}`} key={`page${i + 1}`}>
-                  {i + 1}
+                  {'PAGE '+i + 1}
                 </option>
               ))}
             </Select>

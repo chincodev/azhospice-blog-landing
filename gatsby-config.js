@@ -72,7 +72,7 @@ module.exports = {
         slug: '/blog/',
       },
     ],
-    postsPerFirstPage: 7,
+    postsPerFirstPage: 6,
     postsPerPage: 6,
     basePath: '/',
   },

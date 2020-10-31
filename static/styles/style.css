@@ -19,7 +19,9 @@ text-align:center;
 .triple-sec:nth-child(1) h5 {
 	color: #343a40;
 }
-
+.foot-links{
+    color: #04305f;
+}
 .triple-sec:nth-child(3) h5 {
 	color: #343a40;
 }
