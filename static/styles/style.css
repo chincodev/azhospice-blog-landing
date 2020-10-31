@@ -815,7 +815,7 @@ padding-top: 1em;
     font-size: 16px;
     line-height: 1.6;
     margin-top: 0.6667em;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.7em;
     color: #6e7076 !important;
 }
 
@@ -934,15 +934,15 @@ section p{
     font-weight: 700;
     line-height: 1.16em;
     margin-top: 2em;
-    margin-bottom: 1.05em;
+    margin-bottom: 1em;
 }
 
 .post h3 {
     font-size: 1.8857em;
     font-weight: 600;
     line-height: 1.16em;
-    margin-top: 3em;
-    margin-bottom: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 @media all and (min-width : 737px){
@@ -1079,6 +1079,8 @@ section p{
     #contact > div > div.title-section.mb-sm-5.mb-4 > a{
         margin-top: 3em;
     }
+
+   
 
     #contact > div > div.title-section.mb-sm-5.mb-4
     {
@@ -2022,7 +2024,7 @@ h5.card-title {
     line-height: 1.5;
     font-size: 1.4rem;
     font-weight: 700;
-
+    text-transform: uppercase;
 }
 
 
@@ -3848,7 +3850,16 @@ div#list-ul {
 
 
 
-@media(max-width: 768px) {}
+@media(max-width: 767px) {
+    .post-hero-image{
+        height: 50vh;
+    }
+}
+@media(min-width: 768px) {
+    .post-hero-image{
+        height: calc(50vh - 70px);
+    }
+}
 
 
 

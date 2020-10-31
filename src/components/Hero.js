@@ -15,7 +15,6 @@ const BgImg = styled(Img)`
   width: 100%;
   margin: 0 auto;
   max-width: 1920px;
-  height: 50vh;
   &::before {
     content: '';
     background: rgba(0, 0, 0, 0.25);
@@ -48,7 +47,7 @@ const Title = styled.h1`
 
 const Hero = props => (
   <section>
-    <BgImg fluid={props.image.fluid} backgroundColor={'#eeeeee'} />
+    <BgImg fluid={props.image.fluid} className='post-hero-image' backgroundColor={'#eeeeee'} />
     <Title>{props.title}</Title>
   </section>
 )
