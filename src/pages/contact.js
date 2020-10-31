@@ -11,6 +11,7 @@ const Contact = () => {
 		Email: '',
 		Subject: '',
 		Message: '',
+		
 	}
 
 	const submitButton = useRef()
