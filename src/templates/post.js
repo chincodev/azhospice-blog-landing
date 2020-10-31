@@ -46,20 +46,18 @@ const PostTemplate = ({ data, pageContext }) => {
       />
       <Hero title={title} image={heroImage} height={'50vh'} />
       <div className="container py-xl-5 py-lg-3 post">
-        {tags && <TagList tags={tags} basePath={basePath} />}
+        {
+          tags && <TagList tags={tags} basePath={basePath}/>
+        }
         <div className="share-buttons">
-        <PostDetails
-          date={publishDate}
-          timeToRead={body.childMarkdownRemark.timeToRead}
-        />
-     
-        <ShareButtons slug={slug} title={title} tags={tags}/>
-
-             
-          </div>
+          <PostDetails
+            date={publishDate}
+            timeToRead={body.childMarkdownRemark.timeToRead}
+          />
+          <ShareButtons slug={slug} title={title} tags={tags}/>
+        </div>
         <PageBody body={body} />
-      
-      <PostLinks previous={previous} next={next} basePath={basePath} />
+        <PostLinks previous={previous} next={next} basePath={basePath} />
       </div>
     </Layout>
   )

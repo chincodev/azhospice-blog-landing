@@ -804,7 +804,6 @@ padding-top: 1em;
 
 
 .post{
-    margin: 2rem 0;
     padding-left: 15px!important;
     padding-right: 15px!important;
 }
@@ -812,7 +811,6 @@ padding-top: 1em;
 .post p{
     font-size: 16px;
     line-height: 1.6;
-    margin: 0 0 2em;
 }
 
 .share-buttons-cont{
@@ -2836,6 +2834,15 @@ ul.list-part li {
 
 
 }
+#main{
+    background-color: whitesmoke;
+}
+.post{
+    background-color: white;
+    border-right: 1px solid #bbbbbb
+    border-left: 1px solid #bbbbbb
+}
+
 #main > div.container.py-xl-5.py-lg-3.postList > div > div:first-child{
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;

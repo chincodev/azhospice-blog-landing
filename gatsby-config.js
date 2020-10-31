@@ -33,11 +33,11 @@ module.exports = {
         childs: [
           {
             name: 'What to expect',
-            slug: '/hospice/what-to-expect'
+            slug: '/hospice/what-to-expect/'
           },
           {
             name: 'Insurance coverage',
-            slug: '/hospice/insurance-coverage'
+            slug: '/hospice/insurance-coverage/'
           }
         ]
       },
@@ -47,15 +47,15 @@ module.exports = {
         childs: [
           {
             name: 'Area of cover',
-            slug: '/about-us/area-of-cover'
+            slug: '/about-us/area-of-cover/'
           },
           {
             name: 'Services we provide',
-            slug: '/about-us/services-we-provide'
+            slug: '/about-us/services-we-provide/'
           },
           {
             name: 'Our team',
-            slug: '/about-us/our-team'
+            slug: '/about-us/our-team/'
           }
         ]
       },
