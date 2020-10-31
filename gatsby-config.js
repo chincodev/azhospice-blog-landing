@@ -141,6 +141,9 @@ module.exports = {
             if (path==='' || path==='/' || path==='https://a-zhospice.com' || path==='https://a-zhospice.com/' ) {
               priority = 1
             } 
+            if(edge.node.path.substr(edge.node.path.length-1, 1)!='/'){
+              edge.node.path=edge.node.path+'/'
+            }
             return {
               url: site.siteMetadata.siteUrl + edge.node.path,
               changefreq: `monthly`,
