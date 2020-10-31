@@ -134,23 +134,19 @@ module.exports = {
     {
       resolve:'gatsby-plugin-sitemap',
       options: {
-        options: {
-          serialize: ({ site, allSitePage }) =>
-            allSitePage.edges.map(edge => {
-              let path = edge.node.path
-              let priority = 0.7
-              if (path.match(/products/)) {
-                priority = 1.0
-              }
-              console.log(path)
-              console.log("priority: ", priority.toFixed(1), "    path: ", path)
-              return {
-                url: site.siteMetadata.siteUrl + edge.node.path,
-                changefreq: `monthly`,
-                priority
-              }
-            })
-        }
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            let path = edge.node.path
+            let priority = 0.7
+            if (path==='' || path==='/' || path==='https://a-zhospice.com' || path==='https://a-zhospice.com/' ) {
+              priority = 1
+            } 
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `monthly`,
+              priority
+            }
+          })
       }
     },
     {

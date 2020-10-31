@@ -802,6 +802,9 @@ padding-top: 1em;
     margin: 0px 0.25em 0.25em 0px;
 }
 
+.blog_w3ls{
+    background-color: white;
+}
 
 .post{
     padding-left: 15px!important;
@@ -815,11 +818,11 @@ padding-top: 1em;
     margin-bottom: 0.4em;
 }
 
-.share-buttons-cont{
+/* .share-buttons-cont{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-}
+} */
 
 .share-text{
     margin-bottom: .5rem;
@@ -929,7 +932,7 @@ section p{
     font-size: 2.2857em;
     font-weight: 700;
     line-height: 1.16em;
-    margin-top: 0.6667em;
+    margin-top: 0.95em;
     margin-bottom: 0.4em;
 }
 
@@ -937,7 +940,7 @@ section p{
     font-size: 1.8857em;
     font-weight: 600;
     line-height: 1.16em;
-    margin-top: 0.6667em;
+    margin-top: 0.95em;
     margin-bottom: 0.4em;
 }
 
@@ -2861,9 +2864,9 @@ div.container.py-xl-5.py-lg-3 > div{
     padding-bottom: 1em;
 }
 
-.gatsby-resp-image-wrapper{
-    width: 100%;
-    max-width: 100%;
+.post span.gatsby-resp-image-wrapper{
+    width: 100% !important;
+    max-width: 100% !important;
 }
 
 
