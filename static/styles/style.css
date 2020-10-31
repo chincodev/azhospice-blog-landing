@@ -811,6 +811,8 @@ padding-top: 1em;
 .post p{
     font-size: 16px;
     line-height: 1.6;
+    margin-top: 0.6667em;
+    margin-bottom: 0.4em;
 }
 
 .share-buttons-cont{
@@ -2839,8 +2841,8 @@ ul.list-part li {
 }
 .post{
     background-color: white;
-    border-right: 1px solid #bbbbbb;
-    border-left: 1px solid #bbbbbb
+    border-right: 1px solid #dadada;
+    border-left: 1px solid #dadada
 }
 
 #main > div.container.py-xl-5.py-lg-3.postList > div > div:first-child{
@@ -2857,6 +2859,11 @@ div.container.py-xl-5.py-lg-3 > div{
 .post-links{
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.gatsby-resp-image-wrapper{
+    width: 100%;
+    max-width: 100%;
 }
 
 
