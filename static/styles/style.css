@@ -2018,7 +2018,7 @@ h6.w3ls-title-sub {
 
 h5.card-title a,
 
-h5.card-title {
+h4.card-title {
 
     color: #000;
     line-height: 1.5;
@@ -3852,12 +3852,12 @@ div#list-ul {
 
 @media(max-width: 767px) {
     .post-hero-image{
-        height: 50vh;
+        height: calc(100vh - 70px);
     }
 }
 @media(min-width: 768px) {
     .post-hero-image{
-        height: calc(50vh - 70px);
+        height: calc(50vh);
     }
 }
 
