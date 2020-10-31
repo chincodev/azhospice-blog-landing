@@ -803,12 +803,28 @@ padding-top: 1em;
 }
 
 
+.post{
+    margin: 2rem 0;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
 
 .post p{
-    font-size: 1.2em;
+    font-size: 16px;
     line-height: 1.6;
-    margin: 0px 0px 2em;
+    margin: 0 0 2em;
 }
+
+.share-buttons-cont{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.share-text{
+    margin-bottom: .5rem;
+}
+
 
 .tag-list-item a{
     float: left;
@@ -907,12 +923,24 @@ section p{
 }
 
 .post h1, .post h2 {
-
-
-position: relative;
-margin-bottom: .5em;
-border-bottom: 1px solid gainsboro;
+    position: relative;
+    margin-bottom: .5em;
+    border-bottom: 1px solid gainsboro;
+    font-size: 2.2857em;
+    font-weight: 700;
+    line-height: 1.16em;
+    margin-top: 0.6667em;
+    margin-bottom: 0.4em;
 }
+
+.post h3 {
+    font-size: 1.8857em;
+    font-weight: 600;
+    line-height: 1.16em;
+    margin-top: 0.6667em;
+    margin-bottom: 0.4em;
+}
+
 @media all and (min-width : 737px){
     .post{
         

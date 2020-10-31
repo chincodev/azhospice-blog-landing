@@ -11,7 +11,7 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
       heroImage && body && (
         <div class="col-sm-6 col-xl-4 ">
             <Link to={`${props.basePath}/${slug}/`}>
-                <div class="card post-card d-flex flex-column">
+                <article class="card post-card d-flex flex-column">
                     <Img  class="card-img-top" fluid={heroImage.fluid} alt="And this isn't my nose. This is a false one." />
                     <div class="card-body d-flex flex-column">
                     <small class="d-block text-muted" style={{paddingBottom:"15px"}}>⏱️ {body.childMarkdownRemark.timeToRead} min read</small>
@@ -21,7 +21,7 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
                           <small class="d-block text-muted">📅 {publishDate}</small>
                       </div>
                     </div>
-                </div>
+                </article>
             </Link>
         </div>
       )

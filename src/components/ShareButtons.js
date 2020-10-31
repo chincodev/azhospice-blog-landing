@@ -35,8 +35,8 @@ const ShareButtons = ({title,tags,slug}) => {
     }, [])
 
     return (
-        <div >
-            <small>Share in your social networks</small>
+        <div className='share-buttons-cont'>
+            <span className='share-text'>Share this post</span>
             <div>
               <FacebookShareButton url={baseUrl+'/blog/'+slug}>
                   <span style={{paddingLeft: "1rem !important"}} className="fa share-btn fa-facebook"></span>

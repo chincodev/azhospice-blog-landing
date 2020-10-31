@@ -77,6 +77,14 @@ module.exports = {
     basePath: '/',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://a-zhospice.com',
+        sitemap: 'https://a-zhospice/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     `gatsby-plugin-emotion`,
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-react-helmet',
@@ -123,7 +131,28 @@ module.exports = {
         head: true,
       },
     },
-    'gatsby-plugin-sitemap',
+    {
+      resolve:'gatsby-plugin-sitemap',
+      options: {
+        options: {
+          serialize: ({ site, allSitePage }) =>
+            allSitePage.edges.map(edge => {
+              let path = edge.node.path
+              let priority = 0.7
+              if (path.match(/products/)) {
+                priority = 1.0
+              }
+              console.log(path)
+              console.log("priority: ", priority.toFixed(1), "    path: ", path)
+              return {
+                url: site.siteMetadata.siteUrl + edge.node.path,
+                changefreq: `monthly`,
+                priority
+              }
+            })
+        }
+      }
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

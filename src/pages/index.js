@@ -114,7 +114,7 @@ const IndexPage = () => {
               </div>
           </div>
         </div>
-        <div className="section-2">
+        <section className="section-2">
           <div className="container">
             <div className="row slide">
               <div className="col-xl-4 triple-sec p-5 text-center">
@@ -142,7 +142,7 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
         <section className="blog_w3ls" id="why">
           <div className="container py-xl-5 py-lg-3">
@@ -159,7 +159,7 @@ const IndexPage = () => {
                     <img
                       className="card-img-bottom"
                       src="images/GiQtK1X7gz.jpg"
-                      alt="image"
+                      alt="Our team"
                     />
                   </div>
 
@@ -175,7 +175,7 @@ const IndexPage = () => {
                       and medically directed team. The Hospice team consists of
                       different disciplines, including a physician, a nurse, a
                       home health aide, a social worker, a spiritual counselor,
-                      and a volunteer... Read more about 
+                      and a volunteer...
                     </p>
 
                     <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
@@ -191,7 +191,7 @@ const IndexPage = () => {
                     <img
                       className="card-img-bottom"
                       src="images/2.jpg"
-                      alt="image"
+                      alt="Our team"
                     />
                   </div>
 
@@ -207,7 +207,7 @@ const IndexPage = () => {
                       support to patients and families members. They ensure that
                       patients have the spiritual support that they need and
                       provide a bridge between the patient and the religious
-                      community... Read more about 
+                      community...
                     </p>
 
                     <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">
@@ -223,7 +223,7 @@ const IndexPage = () => {
                     <img
                       className="card-img-bottom"
                       src="images/ybRmRFe5ux.jpg"
-                      alt="image"
+                      alt="Our team"
                     />
                   </div>
 
@@ -239,7 +239,7 @@ const IndexPage = () => {
                       patients, more specifically focusing on overall hygiene
                       and assistance with activities such as bathing, feeding,
                       shaving, walking, and so on.Our home health aides are very
-                      sensitive to the... Read more about 
+                      sensitive to the...
                     </p>
 
                     <Link to="/about-us/our-team" aria-label="Our team" className="btn blog-btn mt-4">

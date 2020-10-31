@@ -22,6 +22,7 @@
     "gatsby-plugin-nprogress": "^2.3.2",
     "gatsby-plugin-offline": "^3.0.34",
     "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-robots-txt": "^1.5.3",
     "gatsby-plugin-schema-snapshot": "^1.0.0",
     "gatsby-plugin-sitemap": "^2.2.27",
     "gatsby-plugin-theme-ui": "^0.3.0",

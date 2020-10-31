@@ -25,10 +25,10 @@ const WhatToExpect = () => {
 					            <p>For the most part, your hospice team—generally speaking, a physician, nurse, hospice aide, social worker, chaplain, volunteer and bereavement manager—arrive one at a time and on a schedule you have agreed to. They are there to help take care of your loved one, not to take over. They will look to you for guidance and at the same time have the answers you need. They will be gentle and confident with the patient. With every visit, things will get easier. You will find yourselves looking forward to each team member’s arrival.</p>
 			                </div>
 			                <div className="col-lg-6 agileits_works-grid1 mt-lg-0 mt-sm-5 mt-4 img-cnt hospice_care">
-				                <img src="../images/3a.jpg" alt="" className="img-fluid" />
+				                <img src="../images/3a.jpg" alt="Nurse caring family" className="img-fluid" />
 			                </div>												
 			                <div className="col-lg-6 agileits_works-grid1 mt-lg-0 mt-sm-5 mt-4 img-cnt hospice_care2">					
-				                <img src="../images/Dw1kv0FQE7.jpg" alt="" className="img-fluid" />				
+				                <img src="../images/Dw1kv0FQE7.jpg" alt="Nurse caring patient" className="img-fluid" />				
 			                </div>								
 			                <div className="col-lg-6 agileits_works-grid" id="list-ul">																
 			                    <h4>Hospice Home Care: What to Expect</h4>
