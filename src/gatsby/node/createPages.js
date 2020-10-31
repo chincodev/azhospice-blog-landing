@@ -27,7 +27,7 @@
      createPage,
      component: path.resolve(`./src/templates/posts.js`),
      items: posts,
-     itemsPerFirstPage: config.siteMetadata.postsPerFirstPage || 7,
+     itemsPerFirstPage: config.siteMetadata.postsPerFirstPage || 6,
      itemsPerPage: config.siteMetadata.postsPerPage || 6,
      pathPrefix: basePath,
      context: {
