@@ -845,7 +845,9 @@ padding-top: 1em;
     padding-bottom: 30px !important;
 }
 
-
+.post-card.gatsby-image-wrapper{
+    height: 200px !important;
+}
 
 .slidesDot li.slick-active div{
     background: #d84315;;
