@@ -2087,6 +2087,13 @@ a.blog-btn {
     margin-top: 1em;
 }
 
+
+.page-buttons{
+    background: hsl(14, 79%, 32%);
+}
+.page-buttons:hover{
+    background: hsl(14, 90%, 24%);
+}
 .post-card .top-sec{
     display: flex;
     width: 100%;
