@@ -97,7 +97,7 @@ const Pagination = props => {
             </Select>
             / {props.context.numberOfPages} <SelectIcon />
           </Numbers>
-          <div>
+          <div style={{display:'flex'}}>
             {props.context.previousPagePath && (
               <Button to={`${props.context.previousPagePath}`}>
                 <span>&larr;</span> Prev

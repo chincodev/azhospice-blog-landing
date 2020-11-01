@@ -2090,6 +2090,7 @@ a.blog-btn {
 
 .page-buttons{
     background: hsl(14, 79%, 32%);
+    padding: .5rem;
 }
 .page-buttons:hover{
     background: hsl(14, 90%, 24%);
