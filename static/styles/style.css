@@ -2880,7 +2880,7 @@ div.container.py-xl-5.py-lg-3 > div{
     font-size: 18px;
     font-weight: bold;
     padding: 14px 18px;
-    background: hsl(14, 79%, 32%);
+    /* background: hsl(14, 79%, 32%); */
     display: inline-block;
     border-radius: 0px;
 }
