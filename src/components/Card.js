@@ -11,16 +11,17 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
       heroImage && body && (
         <article class="col-sm-6 col-xl-4 d-flex">
             <Link to={`${props.basePath}/${slug}/`} className='card post-card flex-column flex-fill' >
+              <div className="top-sec">
                 <Img  class="card-img-top" fluid={heroImage.fluid} alt="And this isn't my nose. This is a false one." />
-                <div class="card-body flex-column">
-                <small class="d-block text-muted" style={{paddingBottom:"15px"}}>⏱️ {body.childMarkdownRemark.timeToRead} min read</small>
-                  <h4 class="card-title" style={{color:"#212121"}}>{title}</h4>
-                  <div class="text-muted text-preview" dangerouslySetInnerHTML={{__html: body.childMarkdownRemark.excerpt}}></div>
+                  <div class="card-body flex-column">
+                  <small class="d-block text-muted" style={{paddingBottom:"15px"}}>⏱️ {body.childMarkdownRemark.timeToRead} min read</small>
+                    <h4 class="card-title" style={{color:"#212121"}}>{title}</h4>
+                    <p class="text-muted text-preview" dangerouslySetInnerHTML={{__html: body.childMarkdownRemark.excerpt}}></p>
                 </div>
-                <span style={{flexGrow:"1"}}></span>
-                <div class="align-items-center pt-5 mt-auto card-body">
-                    <small class="d-block text-muted">📅 {publishDate}</small>
-                </div>
+              </div>
+              <div class="align-items-center mt-auto card-body">
+                <small class="d-block text-muted">📅 {publishDate}</small>
+              </div>
             </Link>
         </article>
       )

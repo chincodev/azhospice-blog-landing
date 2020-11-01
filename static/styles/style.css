@@ -849,6 +849,8 @@ padding-top: 1em;
 
 .post-card .gatsby-image-wrapper{
     height: 200px !important;
+    min-height: 200px !important;
+    max-height: 200px !important;
 }
 
 .slidesDot li.slick-active div{
@@ -2080,7 +2082,15 @@ a.blog-btn {
     background-color: rgb(243, 243, 243);
 }
 .post-card{
+    display: flex;
     margin-top: 1em;
+}
+
+.post-card .top-sec{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
 }
 
 
@@ -2090,7 +2100,7 @@ a.blog-btn {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    /* -webkit-line-clamp: a; */
     -webkit-box-orient: vertical;
 }
 
@@ -2879,7 +2889,7 @@ div.container.py-xl-5.py-lg-3 > div{
     letter-spacing: 1px;
     font-size: 18px;
     font-weight: bold;
-    padding: 14px 18px;
+    /* padding: 14px 18px; */
     /* background: hsl(14, 79%, 32%); */
     display: inline-block;
     border-radius: 0px;
