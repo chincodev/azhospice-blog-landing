@@ -1101,6 +1101,7 @@ section p{
 
     .card-body{
         display: flex;
+        flex: initial !important;
         flex-direction: column;
     }
 
@@ -2893,6 +2894,8 @@ div.container.py-xl-5.py-lg-3 > div{
     /* background: hsl(14, 79%, 32%); */
     display: inline-block;
     border-radius: 0px;
+    justify-content: space-between;
+    display: flex;
 }
 .css-c5c8cw-Button:hover{
     color:#fff;
