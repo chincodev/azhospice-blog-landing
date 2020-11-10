@@ -37,7 +37,7 @@ const Layout = props => {
             <div className="siteContent">
                 <Header />
                 <Nav />
-                <div id="main">{props.children}</div>
+                <main>{props.children}</main>
             </div>
             <Footer />
             <Copyright />

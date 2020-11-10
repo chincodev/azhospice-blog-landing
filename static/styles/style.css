@@ -1077,7 +1077,7 @@ section p{
         justify-content: center;
         margin-top: 0px !important;
     }
-    #main > section > section > div > div.row > div:nth-child(3) > img{
+    main > section > section > div > div.row > div:nth-child(3) > img{
         width: 50%;
         padding-top: 3em;
         padding-bottom: 3em;
@@ -1093,9 +1093,9 @@ section p{
         flex-direction: column;
     }
 
-    #main > section > section > div > div.row > div:nth-child(4) > div > h6,
-    #main > section > section > div > div.row > div > div > p,
-    #main > section > section > div > div.row > div > p{
+    main > section > section > div > div.row > div:nth-child(4) > div > h6,
+    main > section > section > div > div.row > div > div > p,
+    main > section > section > div > div.row > div > p{
         text-align: center;
     }
 
@@ -2862,7 +2862,7 @@ ul.list-part li {
 
 
 }
-#main{
+main{
     background-color: whitesmoke;
 }
 .post{
@@ -2871,7 +2871,7 @@ ul.list-part li {
     border-left: 1px solid #dadada
 }
 
-#main > div.container.py-xl-5.py-lg-3.postList > div > div:first-child{
+main > div.container.py-xl-5.py-lg-3.postList > div > div:first-child{
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
 }
@@ -2919,7 +2919,7 @@ div.container.py-xl-5.py-lg-3 > div{
 }
 
 
-#main > div > div:nth-child(4) > div {
+main > div > div:nth-child(4) > div {
     display: flex;
     justify-content: space-between;
 }
