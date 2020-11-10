@@ -12,7 +12,7 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
         <article class="col-sm-6 col-xl-4 d-flex">
             <Link to={`${props.basePath}/${slug}/`} className='card post-card flex-column flex-fill' >
               <div className="top-sec">
-                <img class="card-img-top" fluid={heroImage.fluid} alt="And this isn't my nose. This is a false one." />
+                <Img  class="card-img-top" fluid={heroImage.fluid} alt="And this isn't my nose. This is a false one." />
                   <div class="card-body flex-column">
                   <small class="d-block text-muted" style={{paddingBottom:"15px"}}>⏱️ {body.childMarkdownRemark.timeToRead} min read</small>
                     <h4 class="card-title" style={{color:"#212121"}}>{title}</h4>
