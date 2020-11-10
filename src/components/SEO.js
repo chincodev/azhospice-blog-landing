@@ -38,8 +38,13 @@ const SEO = ({ title, description, image }) => {
       <meta name="description" content={metaDescription} />
 
       {/* OpenGraph tags */}
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content={site.siteMetadata.title} />
       <meta property="og:title" content={title} />
       <meta property="og:image" content={metaImage} />
+      <meta property="og:image:width" content={metaImage.clientWidth}>
+      <meta property="og:image:height" content={metaImage.clientHeight}></meta>
+      <meta property="og:image:type" content="image/jpg"></meta>
       <meta property="og:description" content={metaDescription} />
 
       {/* Twitter Card tags */}

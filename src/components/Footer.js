@@ -6,19 +6,19 @@ const Footer = () => (
 	    <div className="container py-xl-5 py-lg-3">
 			<div className="row">
 				<div className="col-lg-7 w3l-footer">
-					<ul id="footer-li" className="list-unstyled list-styles mt-lg-5 mt-4">
+					<ul id="footer-li" itemtype="http://schema.org/Organization" className="list-unstyled list-styles mt-lg-5 mt-4">
 						<li>
-							<p className="text-li"><span className="fa fa-location-arrow mr-2"></span>1445 E Los Angeles Ave Suite 301-D, Simi Valley, CA 93065
+							<p className="text-li" itemprop="address"><span className="fa fa-location-arrow mr-2"></span>1445 E Los Angeles Ave Suite 301-D, Simi Valley, CA 93065
                             </p>
 						</li>
 						<li className="my-3">
-							<p className="text-li"><span className="fa fa-phone mr-2"></span><a href="tel:805-380-2550">805-380-2550</a></p>
+							<p className="text-li"><span className="fa fa-phone mr-2"></span><a itemprop="telephone" href="tel:805-380-2550">805-380-2550</a></p>
 						</li>
 						<li className="my-3">
-							<a href="mailto:info@a-zhospice.com" className="text-wh"><span className="fa fa-envelope-open mr-2"></span>info@a-zhospice.com</a>
+							<a href="mailto:info@a-zhospice.com" itemprop="email" className="text-wh" itemprop="email"><span className="fa fa-envelope-open mr-2"></span>info@a-zhospice.com</a>
 						</li>
 						<li className="my-3">
-						    <p className="text-li"><span className="fa fa-fax mr-2"></span>Fax # 805-392-5200</p>
+						    <p className="text-li" itemprop="fax"><span className="fa fa-fax mr-2"></span>Fax # 805-392-5200</p>
 						</li>
 						<li className="my-3">
 						    <p className="text-li"><span className="fa fa-clock-o mr-2"></span>Hours 10 AM to 5 PM </p>
@@ -32,7 +32,7 @@ const Footer = () => (
 			        <div className="logo2">
 						<h2>
 							
-							    <img src="../../images/ACHC_20Gold.png" alt="ACHC image" aria-label="ACHC image" className="img-fluid" />
+							    <img loading="lazy"src="../../images/ACHC_20Gold.png" alt="ACHC image" aria-label="ACHC image" className="img-fluid" />
                            
 						</h2>
 					</div>

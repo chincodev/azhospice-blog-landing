@@ -15,7 +15,13 @@ const Copyright = () => (
 	    		</div>
 	    	</div>
 	    </div>
-        <a href="#home" class="move-top" aria-label="Move to top"></a>
+		<span 
+			onClick={()=>{
+				window.scrollTo(0, 0)
+			}} 
+			class="move-top" 
+			aria-label="Move to top">
+		</span>
     </>
 )
 export default Copyright

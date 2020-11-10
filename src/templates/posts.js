@@ -38,14 +38,14 @@ const Posts = ({ data, pageContext }) => {
         </div>
         </div>
       </div>
-      <div className="container py-xl-5 py-lg-3 postList">
+      <section className="container py-xl-5 py-lg-3 postList">
       <CardList>
         {posts.map(({ node: post }) => (
           <Card key={post.id} {...post} basePath={basePath} />
         ))}
       </CardList>
       <Pagination context={pageContext} />
-      </div>
+      </section>
     </Layout>
   )
 }
