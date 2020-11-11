@@ -160,7 +160,7 @@ const IndexPage = () => {
                     <img
                       className="card-img-bottom"
                       src="images/GiQtK1X7gz.jpg"
-                      alt="Our team"
+                      alt="Doctors"
                     />
                   </div>
 
@@ -192,7 +192,7 @@ const IndexPage = () => {
                     <img
                       className="card-img-bottom"
                       src="images/2.jpg"
-                      alt="Our team"
+                      alt="Caring our family"
                     />
                   </div>
 
@@ -224,7 +224,7 @@ const IndexPage = () => {
                     <img
                       className="card-img-bottom"
                       src="images/ybRmRFe5ux.jpg"
-                      alt="Our team"
+                      alt="Stethoscope"
                     />
                   </div>
 
