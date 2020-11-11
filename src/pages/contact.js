@@ -49,28 +49,28 @@ const Contact = () => {
 	            		    <h3 className="w3ls-title text-uppercase text-bl font-weight-bold">Contact Us</h3>
 	            		</div>
 	            		<div className="row pt-md-0">
-	            		    <div className="col-lg-6 contact-agileits-w3layouts">
+	            		    <div className="col-lg-6 contact-agileits-w3layouts" itemtype="http://schema.org/Organization">
 	            			    <div className="midd-contact my-xl-5 my-4 pl-4 border-left">
 	            					<h4 className="text-bl mb-2">Address & Direction:</h4>
 	            				</div>
 	            				<div className="midd-contact my-xl-5 my-4 pl-4 border-left">						
                                     <h6 className="text-bl mb-2">Office hours:</h6>						
-                                    <p>10AM-5PM </p>	
+                                    <p ><meta itemprop="openingHours" content="Mo-Su 10:00-17:00" />10AM-5PM </p>	
 	            				    <p>ON CALL 24/7 </p>
 	            				</div>
-	            				<p className="para-agileits-w3layouts">
+	            				<p className="para-agileits-w3layouts" itemprop="address">
 	            					<i className="fa fa-map-marker pr-3"></i>
                                     1445 E Los Angeles Ave Suite 301-D, Simi Valley, CA 93065
                                 </p>
-	            				<p className="para-agileits-w3layouts my-sm-3 my-2">
+	            				<p className="para-agileits-w3layouts my-sm-3 my-2" itemprop="telephone">
 	            					<i className="fa fa-phone pr-3"></i>
                                     (805) 380-2550
                                 </p>											
-                                <p className="para-agileits-w3layouts my-sm-3 my-2">						
+                                <p className="para-agileits-w3layouts my-sm-3 my-2" itemprop="fax">						
                                     <i className="fa fa-fax pr-3"></i>
                                     (805) 392-5200 
                                 </p>
-	            				<p className="para-agileits-w3layouts">
+	            				<p className="para-agileits-w3layouts" itemprop="email">
 	            					<i className="fa fa-envelope-open pr-2"></i>
 	            					<a href="mailto:info@a-zhospice.com">
                                     info@a-zhospice.com</a>

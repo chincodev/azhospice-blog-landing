@@ -37,11 +37,11 @@ const Footer = () => (
 						</h2>
 					</div>
 					<h3 className="mb-sm-4 mb-3 text-wh">Social Networks</h3>
-					<ul id="social-li" className="list-unstyled list-part text-wh pt-lg-3">
-						<li><a aria-label="Linkedin" href="https://www.linkedin.com/company/53872160" target="_self"><span className="fa fa-linkedin" aria-hidden="true"></span></a></li>
-						<li className="mx-4"><a aria-label="Facebook" href="https://www.facebook.com/AZHOSPICEINC" target="_self"><span className="fa fa-facebook" aria-hidden="true"></span></a></li>
-						<li><a href="https://www.instagram.com/a_zhospiceinc" aria-label="Instagram" target="_self"><span className="fa fa-instagram" aria-hidden="true"></span></a></li>
-						<li className="mx-4"><a href="https://twitter.com/hospice_z" aria-label="Twitter" target="_self"><span className="fa fa-twitter" aria-hidden="true"></span></a></li>
+					<ul id="social-li" className="list-unstyled list-part text-wh pt-lg-3" itemtype="https://schema.org/FollowAction">
+						<li><a aria-label="Linkedin" itemprop="followee" href="https://www.linkedin.com/company/53872160" target="_self"><span className="fa fa-linkedin" aria-hidden="true"></span></a></li>
+						<li className="mx-4"><a aria-label="Facebook" itemprop="followee"  href="https://www.facebook.com/AZHOSPICEINC" target="_self"><span className="fa fa-facebook" aria-hidden="true"></span></a></li>
+						<li><a href="https://www.instagram.com/a_zhospiceinc" aria-label="Instagram" itemprop="followee" target="_self"><span className="fa fa-instagram" aria-hidden="true"></span></a></li>
+						<li className="mx-4"><a href="https://twitter.com/hospice_z" aria-label="Twitter" itemprop="followee" target="_self"><span className="fa fa-twitter" aria-hidden="true"></span></a></li>
 					</ul>
 				</div>
 			</div>

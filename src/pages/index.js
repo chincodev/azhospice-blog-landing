@@ -154,7 +154,7 @@ const IndexPage = () => {
             </div>
 
             <div className="row">
-              <div className="col-lg-4 col-md-6">
+              <article className="col-lg-4 col-md-6">
                 <div className="card border-0 med-blog">
                   <div className="card-header p-0">
                     <img
@@ -184,9 +184,9 @@ const IndexPage = () => {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </article>
 
-              <div className="col-lg-4 col-md-6 mt-md-0 mt-5">
+              <article className="col-lg-4 col-md-6 mt-md-0 mt-5">
                 <div className="card border-0 med-blog">
                   <div className="card-header p-0">
                     <img
@@ -216,9 +216,9 @@ const IndexPage = () => {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </article>
 
-              <div className="col-lg-4 col-md-6 mt-lg-0 mt-5">
+              <article className="col-lg-4 col-md-6 mt-lg-0 mt-5">
                 <div className="card border-0 med-blog">
                   <div className="card-header p-0">
                     <img
@@ -248,7 +248,7 @@ const IndexPage = () => {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </article>
             </div>
           </div>
         </section>

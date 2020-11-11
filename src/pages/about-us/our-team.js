@@ -31,7 +31,7 @@ const ServicesWeProvide = () => {
 				            <div className="col-lg-4 col-md-6 mt-md-0 mt-5">
 					            <div className="card border-0 med-blog">
 						            <div className="card-header p-0">
-							            <img className="card-img-bottom" src="../images/2.jpg" alt="Caring people" />
+							            <img className="card-img-bottom" src="../../images/2.jpg" alt="Caring people" />
 						            </div>
 						            <div className="card-body border border-top-0">
 							            <div className="mb-3">
